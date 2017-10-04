@@ -1,10 +1,10 @@
-# CSE 344 Homework 1: SQLITE and SQL Basics
+# CSEP 544 Homework 1: SQLITE and SQL Basics
 
 **Objectives:** To be able to create and manipulate tables in sqlite3, and write simple queries using SQL.
 
 **Assignment tools:** [SQLite 3](https://www.sqlite.org/)
 
-**Assigned date:** October 3, 2017
+**Assigned date:** October 4, 2017
 
 **Due date:** October 10, 2017
 
