@@ -1,2 +1,2 @@
-# cse544
-CSEP544: Database Management Systems
+# UW cse544
+UW CSEP544: Database Management Systems
