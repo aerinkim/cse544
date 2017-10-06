@@ -285,7 +285,7 @@ remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
-From git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git
+From gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git
  * branch            master     -> FETCH_HEAD
    7f81148..b0c4a3e  master     -> upstream/master
 Merge made by the 'recursive' strategy.
