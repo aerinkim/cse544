@@ -166,7 +166,7 @@ for any OS. For Eclipse, detailed instructions can be found at
 We have created a git repository that you will use to commit and submit your the homework assignments. 
 This repository is hosted on the [CSE's GitLab](https://gitlab.cs.washington.edu) , 
 and you can view it by visiting the GitLab website at 
-`https://gitlab.cs.washington.edu/cse344-2017au/cse344-[your CSE username]`. 
+`https://gitlab.cs.washington.edu/csep544-2017au/csep544-2017au-[yourCSEusername]`. 
 
 You'll be using this **same repository** for each of the homework assignments this quarter, 
 so if you don't see this repository or are unable to access it, let us know immediately!
@@ -178,23 +178,23 @@ The first thing you'll need to do is set up a SSH key to allow communication wit
 3.  Click "Add SSH Key" and paste in your **public** key into the text area.
 
 While you're logged into the GitLab website, browse around to see which projects you have access to. 
-You should have access to `cse344-[your username]`. 
+You should have access to `csep544-2017au-[yourCSEusername]`. 
 Spend a few minutes getting familiar with the directory layout and file structure. For now nothing will
 be there except for the `hw1` directory with these instructions.
 
 We next want to move the code from the GitLab repository onto your local file system. 
-To do this, you'll need to clone the 344 repository by issuing the following commands on the command line:
+To do this, you'll need to clone the 544 repository by issuing the following commands on the command line:
 
 ```sh
-$ cd [directory that you want to put your 344 assignments]
-$ git clone git@gitlab.cs.washington.edu:cse344-2017au/cse344-[your CSE username].git
-$ cd cse344-[your CSE username]
+$ cd [directory that you want to put your 544 assignments]
+$ git clone git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au-[yourCSEusername].git
+$ cd csep544-2017au-[yourCSEusername].git
 ```
 
 This will make a complete replica of the repository locally. If you get an error that looks like:
 
 ```sh
-Cloning into 'cse344-[your CSE username]'...
+Cloning into 'csep544-2017au-[yourCSEusername]'...
 Permission denied (publickey).
 fatal: Could not read from remote repository.
 ```
@@ -213,25 +213,25 @@ $ git remote -v
 ```
 
 There is one more level of indirection to consider.
-When we created your `cse344-[your CSE username]` repository, we forked a copy of it from another 
-repository `cse344-2017au`.  In `git` parlance, this "original repository" referred to as an `upstream` repository.
+When we created your `csep544-2017au-[yourCSEusername]` repository, we forked a copy of it from another 
+repository `csep544-2017au`.  In `git` parlance, this "original repository" referred to as an `upstream` repository.
 When we release bug fixes and subsequent labs, we will put our changes into the upstream repository, and you will need to be able to pull those changes into your own.  See [the documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) for more details on working with remotes -- they can be confusing!
 
 In order to be able to pull the changes from the upstream repository, we'll need to record a link to the `upstream` remote in your own local repository:
 
 ```sh
 $ # Note that this repository does not have your username as a suffix!
-$ git remote add upstream git@gitlab.cs.washington.edu:suciu/cse344-2017au.git
+$ git remote add upstream git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git
 ```
 
 For reference, your final remote configuration should read like the following when it's setup correctly:
 
 ```sh
 $ git remote -v
-  origin  git@gitlab.cs.washington.edu:cse344-2017au/cse344-[your CSE username].git (fetch)
-  origin  git@gitlab.cs.washington.edu:cse344-2017au/cse344-[your CSE username].git (push)
-  upstream    git@gitlab.cs.washington.edu:suciu/cse344-2017au.git (fetch)
-  upstream    git@gitlab.cs.washington.edu:suciu/cse344-2017au.git (push)
+  origin  git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au-[yourCSEusername].git (fetch)
+  origin  git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au-[yourCSEusername].git (push)
+  upstream    git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git (fetch)
+  upstream    git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git (push)
 ```
 
 In this configuration, the `origin` (default) remote links to **your** repository 
@@ -257,7 +257,7 @@ Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 286 bytes | 0 bytes/s, done.
 Total 3 (delta 1), reused 0 (delta 0)
-To git@gitlab.cs.washington.edu:cse344-2017au/cse344-[your CSE username].git
+To git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au-[yourCSEusername].git
    cb5be61..9bbce8d  master -> master
 ```
 
@@ -285,7 +285,7 @@ remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
-From gitlab.cs.washington.edu:cse344-2017au/cse344-2017au
+From git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au.git
  * branch            master     -> FETCH_HEAD
    7f81148..b0c4a3e  master     -> upstream/master
 Merge made by the 'recursive' strategy.
@@ -300,7 +300,7 @@ Note that it's possible that there aren't any pending changes in the upstream re
 
 ### Collaboration
 
-All CSE 344 assignments are to be completed **INDIVIDUALLY**! However, you may discuss your high-level approach to solving each lab with other students in the class.
+All CSE 544 assignments are to be completed **INDIVIDUALLY**! However, you may discuss your high-level approach to solving each lab with other students in the class.
 
 ### Submitting your assignment
 
@@ -310,7 +310,7 @@ Put your `.sql` files in `hw1/submission`. Your directory structure should
 look like this after you have completed the assignment: 
 
 ```sh
-cse344-[your CSE username]
+csep544-2017au-[your CSE username]
 \-- README.md
 \-- turnInHW.sh     # script for turning in hw
 \-- hw1
@@ -354,19 +354,19 @@ $ ./turnInHw.sh hw11
 [master b155ba0] Homework 1
  1 file changed, 1 insertion(+)
 Deleted tag 'hw1' (was b26abd0)
-To git@gitlab.com:cse344-2017au/cse344-[your CSE username].git
+To git@gitlab.com:csep544-2017au/csep544-2017au-[your CSE username].git
  - [deleted]         hw1
 Counting objects: 11, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (6/6), 448 bytes | 0 bytes/s, done.
 Total 6 (delta 3), reused 0 (delta 0)
-To git@gitlab.com:cse344-2017au/cse344-[your CSE username].git
+To git@gitlab.com:csep544-2017au/csep544-2017au-[your CSE username].git
    ae31bce..b155ba0  master -> master
 Counting objects: 1, done.
 Writing objects: 100% (1/1), 152 bytes | 0 bytes/s, done.
 Total 1 (delta 0), reused 0 (delta 0)
-To git@gitlab.com:cse344-2017au/cse344-[your CSE username].git
+To git@gitlab.com:csep544-2017au/csep544-2017au-[your CSE username].git
  * [new tag]         hw1 -> hw1
 ```
 
@@ -378,7 +378,7 @@ Git is a distributed version control system. This means everything operates offl
 The bad thing is that you may **forget to `git push` your changes**. This is why we strongly, strongly suggest that you **check GitLab to be sure that what you want us to see matches up with what you expect**.  As a second sanity check, you can re-clone your repository in a different directory to confirm the changes:
 
 ```sh
-$ git clone git@gitlab.cs.washington.edu:cse344-2017au/cse344-[your CSE username].git confirmation_directory
+$ git clone git@gitlab.cs.washington.edu:csep544-2017au/csep544-2017au-[your CSE username].git confirmation_directory
 $ cd confirmation_directory
 $ # ... make sure everything is as you expect ...
 ```
