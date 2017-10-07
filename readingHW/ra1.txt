@@ -1,0 +1,16 @@
+Please read Sections 1-4 of "What goes around comes around" 
+and answer the following questions (a brief answer suffices):
+
+Q. Why did CODASYL not provide physical data independence?
+
+A. Because there was no high level language in CODASYL and the storage organization has to hash the record. Tables prescribe how they are implemented / stored on disk. Therefore, application programs breaks if the storage organization changes. 
+
+Q. What led to Ted Codd designing the relational data model? What were the issues with previous data models at the time?
+
+A. For CODASYL, there was no physical data independence (for above reasons) nor logical data independence since the schema cannot change without affecting application programs. And it was record-at-a-time programming language that one enters the database at an entry point and then navigates to desired data by following sets. Moreover, it was not flexible enough to easily represent 3-way (or more) situations because CODASYL sets are only 2-way relationships. 
+
+These issues led the mathematician to design the relational models. 
+
+
+
+
