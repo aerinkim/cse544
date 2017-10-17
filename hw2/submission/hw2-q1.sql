@@ -18,6 +18,12 @@ create table CARRIERS (cid varchar(7) PRIMARY KEY, name varchar(83));
 create table MONTHS (mid int PRIMARY KEY, month varchar(9));
 
 create table WEEKDAYS (did int PRIMARY KEY, day_of_week varchar(9));
+
+
+Flights.carrier_id references Carrier.cid
+Flights.month_id references Months.mid
+Flights.day_of_week_id references Weekdays.did
+
 */
 
 .header on
@@ -29,4 +35,6 @@ from FLIGHTS as F, CARRIERS as C, WEEKDAYS as W
 where F.origin_city = "Seattle WA"
 and F.dest_city = "Boston MA"
 and C.name = "Alaska Airlines Inc."
-and W.day_of_week = "Monday";
+and W.day_of_week = "Monday"
+and F.carrier_id = C.cid
+and F.day_of_week_id = W.did;
