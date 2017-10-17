@@ -1,0 +1,6 @@
+1. Describe briefly what "normal form" means as presented in the paper. 
+What are the advantages of this normal form?
+
+
+
+2. What is "composition" and why is it important for the relational operations presented in the paper? What would happen if the relational operators don't "compose"?
