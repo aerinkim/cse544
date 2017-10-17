@@ -1,6 +1,12 @@
 1. Describe briefly what "normal form" means as presented in the paper. 
 What are the advantages of this normal form?
 
+Normal form means:
+
+First, it would be devoid of pointers (address-valued or displacement-valued) Second, it would avoid all dependence on hash addressing schemes. Third, it would contain no indices or ordering lists.
 
 
 2. What is "composition" and why is it important for the relational operations presented in the paper? What would happen if the relational operators don't "compose"?
+
+Composition is directly on the definitions of join. Two relations are compassable if and only if they are joinable.
+
