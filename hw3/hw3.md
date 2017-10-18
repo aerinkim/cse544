@@ -9,7 +9,7 @@ has been installed on the CSE lab and [VDI machines](http://vdi.cs.washington.ed
 
 **Assigned date:** Tuesday, Oct. 17, 2017
 
-**Due date:** Friday, Oct. 24, 2017 at 11:59pm. You have 1 week for this assignment.
+**Due date:** Tuesday, Oct. 24, 2017 at 11:59pm. You have 1 week for this assignment.
 
 **What to turn in:**
 `hw3-q1.sql`, `hw3-q2.sql`, etc (see below).
