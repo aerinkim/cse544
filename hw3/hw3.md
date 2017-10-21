@@ -289,7 +289,6 @@ Instead of writing:
    
 - The same applies to aggregates and projections as well.
 Instead of writing:
-
    ```
    select fid, avg(price) from flights group by fid
    ```
