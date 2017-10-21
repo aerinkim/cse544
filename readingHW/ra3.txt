@@ -1,0 +1,8 @@
+
+https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d
+
+1. Compare the relational data model with any of the NoSQL data models discussed in Section 2.1. What are the advantages and disadvantages of each?
+
+
+
+2. Do you agree with the categorization of the different systems shown in Figure 6? Why or why not?
