@@ -36,3 +36,11 @@ might be different from what we call them today.
 1. Describe briefly what "normal form" means as presented in the paper. 
 What are the advantages of this normal form?
 2. What is "composition" and why is it important for the relational operations presented in the paper? What would happen if the relational operators don't "compose"?
+
+
+### Assignment 3 (Due on Oct 20, before class)
+
+Please read this [survey](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d) on NoSQL systems. You can skip sections 3.3 and 3.4 as we have not covered recovery and query processing. Answer the following questions (one paragraph per question suffices):
+
+1. Compare the relational data model with any of the NoSQL data models discussed in Section 2.1. What are the advantages and disadvantages of each?
+2. Do you agree with the categorization of the different systems shown in Figure 6? Why or why not?
