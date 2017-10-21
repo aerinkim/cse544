@@ -287,6 +287,19 @@ Instead of writing:
    ```
    This will be useful when you write queries involving self joins.
    
+- The same applies to aggregates and projections as well.
+Instead of writing:
+
+   ```
+   select fid, avg(price) from flights group by fid
+   ```
+   write
+   ```
+   select F.fid, avg(F.price) from flights as F group by F.fid 
+   ```
+
+We reserve the rights to deduct points for queries that don't conform to these style guidelines, even if they are correct. 
+   
 
 Note that SQL Server interprets NULL values differently than sqlite! Try using it in a 
 `WHERE` predicate and you will see the difference.
