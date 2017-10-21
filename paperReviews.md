@@ -38,7 +38,7 @@ What are the advantages of this normal form?
 2. What is "composition" and why is it important for the relational operations presented in the paper? What would happen if the relational operators don't "compose"?
 
 
-### Assignment 3 (Due on Oct 20, before class)
+### Assignment 3 (Due on Oct 24, before class)
 
 Please read this [survey](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d) on NoSQL systems. You can skip sections 3.3 and 3.4 as we have not covered recovery and query processing. Answer the following questions (one paragraph per question suffices):
 
