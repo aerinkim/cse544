@@ -1,0 +1,8 @@
+The DBMS that we use in this assignment is running somewhere in one of Microsoft's data centers. 
+Comment on your experience using this DBMS cloud service. What do you think about the idea of offering a DBMS  as a service in a public cloud?
+
+
+I had an overall good experience using Azure DB but the experience of importing data on the cloud could have been improved. How about creating a button for "import the data" on the panel (https://portal.azure.com)? 
+
+Cloud DBMS became popular these days because it promises to takes care of scalability and high availability of the database. However, to deliver a successful service, there are a few challenges we need to solve-- such as internet speed, privacy, query workload and transactional workloads, etc.
+
