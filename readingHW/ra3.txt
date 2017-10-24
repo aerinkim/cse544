@@ -3,6 +3,23 @@ https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a
 
 1. Compare the relational data model with any of the NoSQL data models discussed in Section 2.1. What are the advantages and disadvantages of each?
 
+In the relational world, every table has a schema that defines the columns and data types that every row in the table must conform to. In contrast, a document database has no defined schema, and every document can be structured differently.
+
+Another significant difference between relational databases and document databases has to do with data normalization. In the relational world, we strive to normalize data as much as possible. This means avoiding data duplication, and maintaining separate tables for each related entity that can be joined together to produce a complete view of the data.
+
+Lastly, scale. It is difficult and time-consuming to scale an RDBMS across multiple servers. In Nosql database, scaling is horizontal, meaning across servers. These multiple servers can be cheap commodity hardware or cloud instances, making it a lot more cost-effective than RDBMS. 
+
+This Youtube video is my favorite: https://www.youtube.com/watch?v=b2F-DItXtZs
+
+
 
 
 2. Do you agree with the categorization of the different systems shown in Figure 6? Why or why not?
+
+
+I agree with the categorization and I think it helps practitioners filter potential system candidates quickly based on central application requirements.
+
+Here are some points that I liked: The decision tree’s very first decision point is Access (Fast Lookup vs Complex Queries). Often times, this is the first question that you need to ask to decide which database you need to choose. Next, it goes to scaling (Volume). If scaling is vertical (more data means a bigger server), it can get very expensive. Therefore, it's also one of important checkpoints and this decision tree asks essential questions.
+
+
+
