@@ -44,3 +44,12 @@ Please read this [survey](https://medium.baqend.com/nosql-databases-a-survey-and
 
 1. Compare the relational data model with any of the NoSQL data models discussed in Section 2.1. What are the advantages and disadvantages of each?
 2. Do you agree with the categorization of the different systems shown in Figure 6? Why or why not?
+
+
+### Assignment 4 (Due on Oct 31, before class)
+
+Please read "Access Path Selection in a Relational Database Management System" ([csenetid](https://courses.cs.washington.edu/courses/csep544/17au/csenetid/selinger79.pdf), [uwnetid](https://courses.cs.washington.edu/courses/csep544/17au/uwnetid/selinger79.pdf)). This is *the* classical paper on join optimization. You can skip sections 1-3 as they describe the system where their algorithm was deployed. Answer the following questions (one paragraph per question suffices):
+
+1. Join optimization, as presented in the paper, is highly dependent on the effectiveness of cost estimation. How does the paper propose to compute the cost of a single relation access path? What statistics are used to estimate the cost of query plans? What are the benefits and limitations of this approach?
+
+2. In addition to computing the cost of a query plan, a query optimizer also needs (1) to define the space of possible plans that it will search and (2) it needs an algorithm to enumerate possible query plans within that space. What query plans does the paper consider? What algorithm does the paper propose to find the best plan in that space? What are the benefits and limitations of this approach?
