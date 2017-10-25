@@ -1,0 +1,12 @@
+/************ data model **************/
+person(name,description) -> string(name), string(description).
+female(name) -> string(name).
+male(name) -> string(name).
+parent_child(p1,p2) -> string(p1), string(p2).
+person_living(p) -> string(p).
+
+/************* problem 0 **************/
+/**** Find all children of Priscilla ****/
+p0(x,d) <- parent_child("Priscilla",x), person(x,d).
+
+

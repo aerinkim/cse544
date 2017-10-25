@@ -1,0 +1,1658 @@
++parent_child("Noah", "Jahath").
++parent_child("Ahasai", "Jahath").
++parent_child("Noah", "Zobebah").
++parent_child("Azgad", "Zobebah").
++parent_child("Jerusha #2", "Ishbi-benob").
++parent_child("Mehir", "Ishbi-benob").
++parent_child("Mahalath #2", "Ben Geber").
++parent_child("Hammedatha", "Ben Geber").
++parent_child("Noah", "Jezoar").
++parent_child("Hattil", "Jezoar").
++parent_child("Mahalath #2", "Nogah").
++parent_child("Jephunneh", "Nogah").
++parent_child("Mahalath #2", "Sarah #1").
++parent_child("Hammedatha", "Sarah #1").
++parent_child("Rebekah", "Judith").
++parent_child("Hillel", "Judith").
++parent_child("Jerusha #2", "Persis").
++parent_child("Eliasaph", "Persis").
++parent_child("Rebekah", "Kallai").
++parent_child("Jaresiah", "Kallai").
++parent_child("Mahalath #2", "Ner").
++parent_child("Mehir", "Ner").
++parent_child("Noah", "Tabitha (Acts 9:36)").
++parent_child("Azgad", "Tabitha (Acts 9:36)").
++parent_child("Jerusha #2", "Hadlai").
++parent_child("Akan", "Hadlai").
++parent_child("Jerusha #2", "Shuni").
++parent_child("Azgad", "Shuni").
++parent_child("Noah", "Joshua the Bethshemite").
++parent_child("Hammedatha", "Joshua the Bethshemite").
++parent_child("Noah", "Aristobulus").
++parent_child("Ahasai", "Aristobulus").
++parent_child("Rebekah", "Aphiah").
++parent_child("Ahasai", "Aphiah").
++parent_child("Mahalath #2", "Delilah").
++parent_child("Hillel", "Delilah").
++parent_child("Noah", "Hasadiah").
++parent_child("Hattil", "Hasadiah").
++parent_child("Mahalath #2", "Jemima").
++parent_child("Hillel", "Jemima").
++parent_child("Mahalath #2", "Hashub").
++parent_child("Jephunneh", "Hashub").
++parent_child("Mahalath #2", "Gaddiel").
++parent_child("Elmadam", "Gaddiel").
++parent_child("Rebekah", "Ocran").
++parent_child("Jephunneh", "Ocran").
++parent_child("Noah", "Alvah").
++parent_child("Elmadam", "Alvah").
++parent_child("Mahalath #2", "Jeiel").
++parent_child("Elmadam", "Jeiel").
++parent_child("Jerusha #2", "Jeriel").
++parent_child("Ishpan", "Jeriel").
++parent_child("Delilah", "Mikloth").
++parent_child("Mehir", "Mikloth").
++parent_child("Noah", "Ispah").
++parent_child("Elmadam", "Ispah").
++parent_child("Jerusha #2", "Ishijah").
++parent_child("Levi", "Ishijah").
++parent_child("Judith", "Peninnah").
++parent_child("Amasa", "Peninnah").
++parent_child("Jemima", "Chenaniah").
++parent_child("Gaddiel", "Chenaniah").
++parent_child("Delilah", "Letushim").
++parent_child("Ishpan", "Letushim").
++parent_child("Noah", "Hothir").
++parent_child("Zobebah", "Hothir").
++parent_child("Sarah #1", "Nahum").
++parent_child("Jeriel", "Nahum").
++parent_child("Persis", "Huppim").
++parent_child("Ner", "Huppim").
++parent_child("Jemima", "Maadiah").
++parent_child("Leummim", "Maadiah").
++parent_child("Judith", "Peresh").
++parent_child("Jaresiah", "Peresh").
++parent_child("Mahalath #2", "Jekameam").
++parent_child("Alvah", "Jekameam").
++parent_child("Mahalath #2", "Mary #3").
++parent_child("Bechorath", "Mary #3").
++parent_child("Sarah #1", "Ahisamach").
++parent_child("Nogah", "Ahisamach").
++parent_child("Mahalath #2", "Guni").
++parent_child("Gaddiel", "Guni").
++parent_child("Judith", "Ishvi").
++parent_child("Hammedatha", "Ishvi").
++parent_child("Persis", "Mehetabel").
++parent_child("Hillel", "Mehetabel").
++parent_child("Persis", "Segub").
++parent_child("Azgad", "Segub").
++parent_child("Persis", "Hallohesh").
++parent_child("Jephunneh", "Hallohesh").
++parent_child("Mahalath #2", "Adah").
++parent_child("Hammedatha", "Adah").
++parent_child("Judith", "Ilai").
++parent_child("Akan", "Ilai").
++parent_child("Tabitha (Acts 9:36)", "Likhi").
++parent_child("Levi", "Likhi").
++parent_child("Mahalath #2", "Moza").
++parent_child("Ocran", "Moza").
++parent_child("Tabitha (Acts 9:36)", "Lo-Ruhamah").
++parent_child("Levi", "Lo-Ruhamah").
++parent_child("Mahalath #2", "Zephon").
++parent_child("Akan", "Zephon").
++parent_child("Delilah", "Elisabeth").
++parent_child("Ishpan", "Elisabeth").
++parent_child("Persis", "Shillem").
++parent_child("Aphiah", "Shillem").
++parent_child("Noah", "Meshullemeth").
++parent_child("Elmadam", "Meshullemeth").
++parent_child("Tabitha (Acts 9:36)", "Helon").
++parent_child("Hashub", "Helon").
++parent_child("Adah", "Ephah").
++parent_child("Letushim", "Ephah").
++parent_child("Peninnah", "Sethur").
++parent_child("Ahisamach", "Sethur").
++parent_child("Adah", "Abijah").
++parent_child("Letushim", "Abijah").
++parent_child("Jemima", "Chelub").
++parent_child("Zobebah", "Chelub").
++parent_child("Mehetabel", "Ithream").
++parent_child("Likhi", "Ithream").
++parent_child("Persis", "Molid").
++parent_child("Likhi", "Molid").
++parent_child("Elisabeth", "Naboth").
++parent_child("Joshua the Bethshemite", "Naboth").
++parent_child("Jemima", "Ozni").
++parent_child("Shuni", "Ozni").
++parent_child("Elisabeth", "Nemuel").
++parent_child("Letushim", "Nemuel").
++parent_child("Meshullemeth", "Jehoshaphat").
++parent_child("Huppim", "Jehoshaphat").
++parent_child("Sarah #1", "Rahab").
++parent_child("Nogah", "Rahab").
++parent_child("Sarah #1", "Jehoaddah").
++parent_child("Huppim", "Jehoaddah").
++parent_child("Peninnah", "Jehoaddan (or Jehoaddin)").
++parent_child("Ben Geber", "Jehoaddan (or Jehoaddin)").
++parent_child("Delilah", "Maaziah").
++parent_child("Hallohesh", "Maaziah").
++parent_child("Delilah", "Naamah #2").
++parent_child("Jekameam", "Naamah #2").
++parent_child("Tabitha (Acts 9:36)", "Hushim #2").
++parent_child("Shillem", "Hushim #2").
++parent_child("Mary #3", "Jathniel").
++parent_child("Ishijah", "Jathniel").
++parent_child("Lo-Ruhamah", "Hagabah").
++parent_child("Peresh", "Hagabah").
++parent_child("Elisabeth", "Enan #1").
++parent_child("Ner", "Enan #1").
++parent_child("Lo-Ruhamah", "Aduel").
++parent_child("Shuni", "Aduel").
++parent_child("Adah", "Keziah").
++parent_child("Hasadiah", "Keziah").
++parent_child("Judith", "Zeresh").
++parent_child("Guni", "Zeresh").
++parent_child("Adah", "Joezer").
++parent_child("Ispah", "Joezer").
++parent_child("Judith", "Rhoda").
++parent_child("Ben Geber", "Rhoda").
++parent_child("Meshullemeth", "Ithran").
++parent_child("Moza", "Ithran").
++parent_child("Sarah #1", "Shuthelah").
++parent_child("Peresh", "Shuthelah").
++parent_child("Mehetabel", "Josiphiah").
++parent_child("Shillem", "Josiphiah").
++parent_child("Mary #3", "Elpaal").
++parent_child("Alvah", "Elpaal").
++parent_child("Hushim #2", "Eliphelet").
++parent_child("Jehoshaphat", "Eliphelet").
++parent_child("Mary #3", "Chelluh").
++parent_child("Ithran", "Chelluh").
++parent_child("Mehetabel", "Shelemiah").
++parent_child("Ispah", "Shelemiah").
++parent_child("Jehoaddan (or Jehoaddin)", "Paruah").
++parent_child("Segub", "Paruah").
++parent_child("Mary #3", "Jecholiah").
++parent_child("Chenaniah", "Jecholiah").
++parent_child("Naamah #2", "Asriel").
++parent_child("Ithream", "Asriel").
++parent_child("Lo-Ruhamah", "Merab").
++parent_child("Helon", "Merab").
++parent_child("Lo-Ruhamah", "Elpalet").
++parent_child("Shuthelah", "Elpalet").
++parent_child("Jehoaddan (or Jehoaddin)", "Rachel").
++parent_child("Letushim", "Rachel").
++parent_child("Zeresh", "Vaizatha").
++parent_child("Nahum", "Vaizatha").
++parent_child("Rahab", "Shemer").
++parent_child("Shillem", "Shemer").
++parent_child("Ephah", "Elnaam").
++parent_child("Mikloth", "Elnaam").
++parent_child("Hushim #2", "Ithai").
++parent_child("Ozni", "Ithai").
++parent_child("Hushim #2", "Raphu").
++parent_child("Huppim", "Raphu").
++parent_child("Ephah", "Baara #2").
++parent_child("Nahum", "Baara #2").
++parent_child("Rhoda", "Esther (also known as Hadassah)").
++parent_child("Abijah", "Esther (also known as Hadassah)").
++parent_child("Naamah #2", "Ezrah").
++parent_child("Abijah", "Ezrah").
++parent_child("Peninnah", "Vaniah").
++parent_child("Chelub", "Vaniah").
++parent_child("Rahab", "Helek").
++parent_child("Shillem", "Helek").
++parent_child("Jehoaddan (or Jehoaddin)", "Sharar").
++parent_child("Molid", "Sharar").
++parent_child("Elisabeth", "Abinadab").
++parent_child("Elpaal", "Abinadab").
++parent_child("Elisabeth", "Gemalli").
++parent_child("Enan #1", "Gemalli").
++parent_child("Meshullemeth", "Jemima #2").
++parent_child("Guni", "Jemima #2").
++parent_child("Lo-Ruhamah", "Tamar #3").
++parent_child("Hallohesh", "Tamar #3").
++parent_child("Rahab", "Abihail #1").
++parent_child("Naboth", "Abihail #1").
++parent_child("Rahab", "Amos").
++parent_child("Chenaniah", "Amos").
++parent_child("Hushim #2", "Hashabnah").
++parent_child("Joezer", "Hashabnah").
++parent_child("Ephah", "Adbeel").
++parent_child("Ishijah", "Adbeel").
++parent_child("Keziah", "Igdaliah").
++parent_child("Jathniel", "Igdaliah").
++parent_child("Rahab", "Mahlah #1").
++parent_child("Ahisamach", "Mahlah #1").
++parent_child("Jehoaddan (or Jehoaddin)", "Malcam").
++parent_child("Chelub", "Malcam").
++parent_child("Merab", "Jachin").
++parent_child("Shemer", "Jachin").
++parent_child("Merab", "Uel").
++parent_child("Aduel", "Uel").
++parent_child("Baara #2", "Jekoliah").
++parent_child("Jehoaddah", "Jekoliah").
++parent_child("Rhoda", "Jakeh").
++parent_child("Ithream", "Jakeh").
++parent_child("Jehoaddan (or Jehoaddin)", "Zohar").
++parent_child("Ithream", "Zohar").
++parent_child("Rachel", "Ard").
++parent_child("Ithream", "Ard").
++parent_child("Jemima #2", "Sheerah").
++parent_child("Jathniel", "Sheerah").
++parent_child("Zeresh", "Dorcas, also known as Tabitha. Acts[46]").
++parent_child("Ozni", "Dorcas, also known as Tabitha. Acts[46]").
++parent_child("Jehoaddan (or Jehoaddin)", "Elizaphan").
++parent_child("Shuthelah", "Elizaphan").
++parent_child("Jecholiah", "Ir").
++parent_child("Shelemiah", "Ir").
++parent_child("Rachel", "Hananiah").
++parent_child("Adbeel", "Hananiah").
++parent_child("Hushim #2", "Ishod").
++parent_child("Shemer", "Ishod").
++parent_child("Jecholiah", "Heber").
++parent_child("Maaziah", "Heber").
++parent_child("Keziah", "Sabtah").
++parent_child("Elpaal", "Sabtah").
++parent_child("Zeresh", "Obadiah").
++parent_child("Josiphiah", "Obadiah").
++parent_child("Rahab", "Hogla (or Hoglah)").
++parent_child("Josiphiah", "Hogla (or Hoglah)").
++parent_child("Ephah", "Mallothi").
++parent_child("Josiphiah", "Mallothi").
++parent_child("Jemima #2", "Nekoda").
++parent_child("Sethur", "Nekoda").
++parent_child("Ephah", "Haahashtari").
++parent_child("Elpalet", "Haahashtari").
++parent_child("Baara #2", "Hubbah").
++parent_child("Ithai", "Hubbah").
++parent_child("Naamah #2", "Caleb, son of Hezron").
++parent_child("Adbeel", "Caleb, son of Hezron").
++parent_child("Rhoda", "Zuar").
++parent_child("Maaziah", "Zuar").
++parent_child("Jemima #2", "Rizpah").
++parent_child("Hashabnah", "Rizpah").
++parent_child("Abihail #1", "Joel").
++parent_child("Jehoshaphat", "Joel").
++parent_child("Jecholiah", "Jacan").
++parent_child("Joezer", "Jacan").
++parent_child("Jehoaddan (or Jehoaddin)", "Libni").
++parent_child("Jathniel", "Libni").
++parent_child("Jehoaddan (or Jehoaddin)", "Anani").
++parent_child("Helek", "Anani").
++parent_child("Hushim #2", "Naphtuhim").
++parent_child("Abinadab", "Naphtuhim").
++parent_child("Jehoaddan (or Jehoaddin)", "Zillah #2").
++parent_child("Vaniah", "Zillah #2").
++parent_child("Abihail #1", "Habazziniah").
++parent_child("Elpaal", "Habazziniah").
++parent_child("Rahab", "Achsah (or Acsah)").
++parent_child("Elnaam", "Achsah (or Acsah)").
++parent_child("Jemima #2", "Ishui").
++parent_child("Vaizatha", "Ishui").
++parent_child("Baara #2", "Sapphira").
++parent_child("Ishod", "Sapphira").
++parent_child("Abihail #1", "Judas of Straight Street in Damascus").
++parent_child("Ishod", "Judas of Straight Street in Damascus").
++parent_child("Tamar #3", "Shabbethai").
++parent_child("Ithai", "Shabbethai").
++parent_child("Mahlah #1", "Jehoiada").
++parent_child("Shemer", "Jehoiada").
++parent_child("Achsah (or Acsah)", "Obil").
++parent_child("Hananiah", "Obil").
++parent_child("Zillah #2", "Hemam").
++parent_child("Zuar", "Hemam").
++parent_child("Esther (also known as Hadassah)", "Pedahel").
++parent_child("Caleb, son of Hezron", "Pedahel").
++parent_child("Achsah (or Acsah)", "Pedahzur").
++parent_child("Uel", "Pedahzur").
++parent_child("Achsah (or Acsah)", "Baanah").
++parent_child("Hashabnah", "Baanah").
++parent_child("Sheerah", "Jehdeiah").
++parent_child("Hananiah", "Jehdeiah").
++parent_child("Jemima #2", "Iru").
++parent_child("Jachin", "Iru").
++parent_child("Hogla (or Hoglah)", "Shelomit #2").
++parent_child("Raphu", "Shelomit #2").
++parent_child("Baara #2", "Parmashta").
++parent_child("Vaizatha", "Parmashta").
++parent_child("Abihail #1", "Nereus").
++parent_child("Shemer", "Nereus").
++parent_child("Esther (also known as Hadassah)", "Jasiel").
++parent_child("Joel", "Jasiel").
++parent_child("Merab", "Shaaph").
++parent_child("Sabtah", "Shaaph").
++parent_child("Abihail #1", "Genubath").
++parent_child("Gemalli", "Genubath").
++parent_child("Mahlah #1", "Ben Deker").
++parent_child("Sabtah", "Ben Deker").
++parent_child("Baara #2", "Euodia").
++parent_child("Chelluh", "Euodia").
++parent_child("Jemima #2", "Kolaiah").
++parent_child("Zohar", "Kolaiah").
++parent_child("Jecholiah", "Sered").
++parent_child("Amos", "Sered").
++parent_child("Baara #2", "Arodi").
++parent_child("Helek", "Arodi").
++parent_child("Sheerah", "Zabad").
++parent_child("Haahashtari", "Zabad").
++parent_child("Rachel", "Birsha").
++parent_child("Haahashtari", "Birsha").
++parent_child("Jemima #2", "Uriah ben Shemaiah").
++parent_child("Ard", "Uriah ben Shemaiah").
++parent_child("Rizpah", "Helah").
++parent_child("Obadiah", "Helah").
++parent_child("Abihail #1", "Abigail #3").
++parent_child("Ishod", "Abigail #3").
++parent_child("Hogla (or Hoglah)", "Ishuah").
++parent_child("Chelluh", "Ishuah").
++parent_child("Sapphira", "Nebuzaradan").
++parent_child("Ard", "Nebuzaradan").
++parent_child("Shelomit #2", "Jamin").
++parent_child("Obadiah", "Jamin").
++parent_child("Sapphira", "Lael").
++parent_child("Jekoliah", "Lael").
++parent_child("Shelomit #2", "Jeatherai").
++parent_child("Shaaph", "Jeatherai").
++parent_child("Shelomit #2", "Nehum").
++parent_child("Iru", "Nehum").
++parent_child("Hogla (or Hoglah)", "Keturah").
++parent_child("Genubath", "Keturah").
++parent_child("Achsah (or Acsah)", "On").
++parent_child("Shabbethai", "On").
++parent_child("Rizpah", "Matthanias").
++parent_child("Ir", "Matthanias").
++parent_child("Abigail #3", "Ahilud").
++parent_child("Anani", "Ahilud").
++parent_child("Sheerah", "Lydia of Thyatira").
++parent_child("Arodi", "Lydia of Thyatira").
++parent_child("Dorcas, also known as Tabitha. Acts[46]", "Nedabiah").
++parent_child("Shaaph", "Nedabiah").
++parent_child("Dorcas, also known as Tabitha. Acts[46]", "Jalon").
++parent_child("Zuar", "Jalon").
++parent_child("Euodia", "Zephaniah").
++parent_child("Pedahel", "Zephaniah").
++parent_child("Hogla (or Hoglah)", "Miamin").
++parent_child("Genubath", "Miamin").
++parent_child("Sapphira", "Ahlai #2").
++parent_child("Genubath", "Ahlai #2").
++parent_child("Zillah #2", "Jael").
++parent_child("Obadiah", "Jael").
++parent_child("Sapphira", "Miniamin").
++parent_child("Jehdeiah", "Miniamin").
++parent_child("Sapphira", "Urijah").
++parent_child("Heber", "Urijah").
++parent_child("Rizpah", "Jahmai").
++parent_child("Zabad", "Jahmai").
++parent_child("Hogla (or Hoglah)", "Delaiah").
++parent_child("Joel", "Delaiah").
++parent_child("Shelomit #2", "Salome #1").
++parent_child("Mallothi", "Salome #1").
++parent_child("Rizpah", "Mibsam").
++parent_child("Jasiel", "Mibsam").
++parent_child("Dorcas, also known as Tabitha. Acts[46]", "Antiochus").
++parent_child("Ishod", "Antiochus").
++parent_child("Rizpah", "Harnepher").
++parent_child("Genubath", "Harnepher").
++parent_child("Hogla (or Hoglah)", "Jishui").
++parent_child("Jasiel", "Jishui").
++parent_child("Shelomit #2", "Mehujael").
++parent_child("Pedahel", "Mehujael").
++parent_child("Sapphira", "Hagar").
++parent_child("Habazziniah", "Hagar").
++parent_child("Sheerah", "Obal").
++parent_child("Jekoliah", "Obal").
++parent_child("Sapphira", "Aggaba").
++parent_child("Birsha", "Aggaba").
++parent_child("Hogla (or Hoglah)", "Hathach").
++parent_child("Sabtah", "Hathach").
++parent_child("Helah", "Elzaphan").
++parent_child("Ishod", "Elzaphan").
++parent_child("Helah", "Bidkar").
++parent_child("Nereus", "Bidkar").
++parent_child("Ahlai #2", "Mezahab").
++parent_child("Jahmai", "Mezahab").
++parent_child("Lydia of Thyatira", "Abimael").
++parent_child("Jamin", "Abimael").
++parent_child("Hagar", "Harbona").
++parent_child("Ben Deker", "Harbona").
++parent_child("Jael", "Jonathan son of Kareah").
++parent_child("Matthanias", "Jonathan son of Kareah").
++parent_child("Shelomit #2", "Elpelet").
++parent_child("Pedahel", "Elpelet").
++parent_child("Euodia", "Hezron").
++parent_child("Baanah", "Hezron").
++parent_child("Hagar", "Chuza").
++parent_child("Hemam", "Chuza").
++parent_child("Antiochus", "Mary #2").
++parent_child("On", "Mary #2").
++parent_child("Keturah", "Geber").
++parent_child("Sered", "Geber").
++parent_child("Keturah", "Tamar #1").
++parent_child("Delaiah", "Tamar #1").
++parent_child("Antiochus", "Arah").
++parent_child("Mehujael", "Arah").
++parent_child("Sapphira", "Ahiram").
++parent_child("Ahilud", "Ahiram").
++parent_child("Abigail #3", "Ozem").
++parent_child("Hemam", "Ozem").
++parent_child("Helah", "Joiarib").
++parent_child("Delaiah", "Joiarib").
++parent_child("Shelomit #2", "Rohgah").
++parent_child("Bidkar", "Rohgah").
++parent_child("Salome #1", "Jozabad").
++parent_child("Birsha", "Jozabad").
++parent_child("Helah", "Mithredath").
++parent_child("Jeatherai", "Mithredath").
++parent_child("Jael", "Elionenai").
++parent_child("Nebuzaradan", "Elionenai").
++parent_child("Keturah", "Putiel").
++parent_child("Hemam", "Putiel").
++parent_child("Abigail #3", "Amzi").
++parent_child("Nebuzaradan", "Amzi").
++parent_child("Ahlai #2", "Matthan").
++parent_child("Jasiel", "Matthan").
++parent_child("Shelomit #2", "Malchiah").
++parent_child("Ben Deker", "Malchiah").
++parent_child("Abigail #3", "Elidad").
++parent_child("Jamin", "Elidad").
++parent_child("Keturah", "Haggith").
++parent_child("Harnepher", "Haggith").
++parent_child("Abigail #3", "Becher").
++parent_child("Delaiah", "Becher").
++parent_child("Euodia", "Ahinadab").
++parent_child("Mibsam", "Ahinadab").
++parent_child("Antiochus", "Ishhod").
++parent_child("On", "Ishhod").
++parent_child("Lydia of Thyatira", "Jeriah").
++parent_child("Harnepher", "Jeriah").
++parent_child("Hagar", "Rehabiah").
++parent_child("Elidad", "Rehabiah").
++parent_child("Tamar #1", "Ahian").
++parent_child("Arah", "Ahian").
++parent_child("Mary #2", "Jerioth").
++parent_child("Elidad", "Jerioth").
++parent_child("Ahlai #2", "Amaziah").
++parent_child("Jozabad", "Amaziah").
++parent_child("Lydia of Thyatira", "Phaltiel").
++parent_child("Chuza", "Phaltiel").
++parent_child("Haggith", "Nahath").
++parent_child("Harnepher", "Nahath").
++parent_child("Lydia of Thyatira", "Jecholiah (or Jecoliah)").
++parent_child("Joiarib", "Jecholiah (or Jecoliah)").
++parent_child("Hagar", "Ahinoam #1").
++parent_child("Nebuzaradan", "Ahinoam #1").
++parent_child("Haggith", "Jaaziel").
++parent_child("Ishhod", "Jaaziel").
++parent_child("Jael", "Shobal").
++parent_child("Amzi", "Shobal").
++parent_child("Keturah", "Enoch").
++parent_child("Mithredath", "Enoch").
++parent_child("Tamar #1", "Shaashgaz").
++parent_child("Geber", "Shaashgaz").
++parent_child("Lydia of Thyatira", "Linus").
++parent_child("Lael", "Linus").
++parent_child("Lydia of Thyatira", "Mahazioth").
++parent_child("Abimael", "Mahazioth").
++parent_child("Ahlai #2", "Rekem").
++parent_child("Rohgah", "Rekem").
++parent_child("Lydia of Thyatira", "Athlai").
++parent_child("Mehujael", "Athlai").
++parent_child("Lydia of Thyatira", "Keren-happuch").
++parent_child("On", "Keren-happuch").
++parent_child("Salome #1", "Jeremai").
++parent_child("Elionenai", "Jeremai").
++parent_child("Tamar #1", "Izrahiah").
++parent_child("Mithredath", "Izrahiah").
++parent_child("Tamar #1", "Asenath").
++parent_child("Elpelet", "Asenath").
++parent_child("Ahlai #2", "Jehudi").
++parent_child("Nedabiah", "Jehudi").
++parent_child("Haggith", "Rinnah").
++parent_child("Nedabiah", "Rinnah").
++parent_child("Lydia of Thyatira", "Ithmah").
++parent_child("Ahilud", "Ithmah").
++parent_child("Salome #1", "Amasiah").
++parent_child("Ahinadab", "Amasiah").
++parent_child("Mary #2", "Eldaah").
++parent_child("Elpelet", "Eldaah").
++parent_child("Tamar #1", "Eliadah").
++parent_child("Izrahiah", "Eliadah").
++parent_child("Jecholiah (or Jecoliah)", "Zithri").
++parent_child("Rehabiah", "Zithri").
++parent_child("Asenath", "Hareph").
++parent_child("Geber", "Hareph").
++parent_child("Jerioth", "Taphath #2").
++parent_child("Izrahiah", "Taphath #2").
++parent_child("Haggith", "Pelaliah").
++parent_child("Jeriah", "Pelaliah").
++parent_child("Jerioth", "Ephrath").
++parent_child("Becher", "Ephrath").
++parent_child("Ahinoam #1", "Jediael").
++parent_child("Becher", "Jediael").
++parent_child("Mary #2", "Me-Zahab").
++parent_child("Elpelet", "Me-Zahab").
++parent_child("Asenath", "Puah").
++parent_child("Shobal", "Puah").
++parent_child("Jecholiah (or Jecoliah)", "Basemeth #2").
++parent_child("Abimael", "Basemeth #2").
++parent_child("Jerioth", "Allon").
++parent_child("Abimael", "Allon").
++parent_child("Ahinoam #1", "Maai").
++parent_child("Keren-happuch", "Maai").
++parent_child("Haggith", "Parnach").
++parent_child("Elidad", "Parnach").
++parent_child("Mary #2", "Jehush").
++parent_child("Jeriah", "Jehush").
++parent_child("Haggith", "Simon Iscariot").
++parent_child("Izrahiah", "Simon Iscariot").
++parent_child("Asenath", "Jaanai").
++parent_child("Rekem", "Jaanai").
++parent_child("Mary #2", "Ahimoth").
++parent_child("Geber", "Ahimoth").
++parent_child("Ephrath", "Ishuai").
++parent_child("Phaltiel", "Ishuai").
++parent_child("Jerioth", "Anna the Prophetess").
++parent_child("Mahazioth", "Anna the Prophetess").
++parent_child("Puah", "Aziel").
++parent_child("Phaltiel", "Aziel").
++parent_child("Basemeth #2", "Laish").
++parent_child("Nahath", "Laish").
++parent_child("Jerioth", "Nehushta").
++parent_child("Jaaziel", "Nehushta").
++parent_child("Jecholiah (or Jecoliah)", "Josibiah").
++parent_child("Eliadah", "Josibiah").
++parent_child("Jecholiah (or Jecoliah)", "Jerioth #2").
++parent_child("Rekem", "Jerioth #2").
++parent_child("Taphath #2", "Malchi-shua").
++parent_child("Jaaziel", "Malchi-shua").
++parent_child("Ephrath", "Shobab").
++parent_child("Izrahiah", "Shobab").
++parent_child("Me-Zahab", "Diblaim").
++parent_child("Amasiah", "Diblaim").
++parent_child("Ahinoam #1", "Enan #2").
++parent_child("Izrahiah", "Enan #2").
++parent_child("Ephrath", "Hori").
++parent_child("Jehudi", "Hori").
++parent_child("Asenath", "Martha").
++parent_child("Athlai", "Martha").
++parent_child("Ephrath", "Machnadebai").
++parent_child("Izrahiah", "Machnadebai").
++parent_child("Jerioth", "Carmi").
++parent_child("Linus", "Carmi").
++parent_child("Jecholiah (or Jecoliah)", "Jahzeel").
++parent_child("Keren-happuch", "Jahzeel").
++parent_child("Ahinoam #1", "Sachar").
++parent_child("Ahian", "Sachar").
++parent_child("Asenath", "Zeri").
++parent_child("Jehush", "Zeri").
++parent_child("Basemeth #2", "Mishmannah").
++parent_child("Jediael", "Mishmannah").
++parent_child("Me-Zahab", "Abdi").
++parent_child("Maai", "Abdi").
++parent_child("Puah", "Jeshohaiah").
++parent_child("Enoch", "Jeshohaiah").
++parent_child("Basemeth #2", "Aholibamah (or Oholibamah)").
++parent_child("Shaashgaz", "Aholibamah (or Oholibamah)").
++parent_child("Jerioth", "Eran").
++parent_child("Eldaah", "Eran").
++parent_child("Taphath #2", "Ribai").
++parent_child("Hareph", "Ribai").
++parent_child("Me-Zahab", "Pildash").
++parent_child("Hori", "Pildash").
++parent_child("Martha", "Ramiah").
++parent_child("Josibiah", "Ramiah").
++parent_child("Martha", "Mnason").
++parent_child("Abdi", "Mnason").
++parent_child("Aholibamah (or Oholibamah)", "Keren–Happuch").
++parent_child("Maai", "Keren–Happuch").
++parent_child("Taphath #2", "Chimham").
++parent_child("Shobab", "Chimham").
++parent_child("Puah", "Meraioth").
++parent_child("Eran", "Meraioth").
++parent_child("Nehushta", "Hamul").
++parent_child("Jehush", "Hamul").
++parent_child("Ephrath", "Abida").
++parent_child("Enan #2", "Abida").
++parent_child("Basemeth #2", "Elisheba").
++parent_child("Ahimoth", "Elisheba").
++parent_child("Nehushta", "Meshelemiah").
++parent_child("Jehush", "Meshelemiah").
++parent_child("Aholibamah (or Oholibamah)", "Magpiash").
++parent_child("Ribai", "Magpiash").
++parent_child("Jerioth #2", "Gilalai").
++parent_child("Jediael", "Gilalai").
++parent_child("Nehushta", "Machbanai").
++parent_child("Mishmannah", "Machbanai").
++parent_child("Anna the Prophetess", "Mahlah #2").
++parent_child("Jahzeel", "Mahlah #2").
++parent_child("Martha", "Jimnah").
++parent_child("Allon", "Jimnah").
++parent_child("Nehushta", "Ibneiah").
++parent_child("Eliadah", "Ibneiah").
++parent_child("Nehushta", "Gamul").
++parent_child("Machbanai", "Gamul").
++parent_child("Keren–Happuch", "Jonathan son of Abiathar").
++parent_child("Josibiah", "Jonathan son of Abiathar").
++parent_child("Mahlah #2", "Akkub").
++parent_child("Shobab", "Akkub").
++parent_child("Nehushta", "Zidkijah").
++parent_child("Abdi", "Zidkijah").
++parent_child("Diblaim", "Gamaliel").
++parent_child("Meshelemiah", "Gamaliel").
++parent_child("Elisheba", "Naphish").
++parent_child("Jeshohaiah", "Naphish").
++parent_child("Nehushta", "Sarah #2").
++parent_child("Abdi", "Sarah #2").
++parent_child("Nehushta", "Iscah #2").
++parent_child("Shobab", "Iscah #2").
++parent_child("Nehushta", "Nahbi").
++parent_child("Ramiah", "Nahbi").
++parent_child("Nehushta", "Jahzerah").
++parent_child("Ibneiah", "Jahzerah").
++parent_child("Elisheba", "Raddai").
++parent_child("Magpiash", "Raddai").
++parent_child("Diblaim", "Admatha").
++parent_child("Jimnah", "Admatha").
++parent_child("Nehushta", "Neariah").
++parent_child("Josibiah", "Neariah").
++parent_child("Nehushta", "Basemath").
++parent_child("Zeri", "Basemath").
++parent_child("Mahlah #2", "Jesimiel").
++parent_child("Ibneiah", "Jesimiel").
++parent_child("Anna the Prophetess", "Elizur").
++parent_child("Sachar", "Elizur").
++parent_child("Elisheba", "Mary #4").
++parent_child("Jeshohaiah", "Mary #4").
++parent_child("Diblaim", "Elisheba #2").
++parent_child("Malchi-shua", "Elisheba #2").
++parent_child("Elisheba", "Jogli").
++parent_child("Carmi", "Jogli").
++parent_child("Anna the Prophetess", "Elishaphat").
++parent_child("Pildash", "Elishaphat").
++parent_child("Mahlah #2", "Shechem").
++parent_child("Meraioth", "Shechem").
++parent_child("Keren–Happuch", "Melech").
++parent_child("Hamul", "Melech").
++parent_child("Aholibamah (or Oholibamah)", "Job").
++parent_child("Mishmannah", "Job").
++parent_child("Keren–Happuch", "Romamti-ezer").
++parent_child("Abida", "Romamti-ezer").
++parent_child("Martha", "Jekamiah").
++parent_child("Machbanai", "Jekamiah").
++parent_child("Mahlah #2", "Jecamiah").
++parent_child("Sachar", "Jecamiah").
++parent_child("Elisheba", "Vophsi").
++parent_child("Mnason", "Vophsi").
++parent_child("Anna the Prophetess", "Jareb").
++parent_child("Enan #2", "Jareb").
++parent_child("Jerioth #2", "Abital").
++parent_child("Abdi", "Abital").
++parent_child("Anna the Prophetess", "Ehi").
++parent_child("Machnadebai", "Ehi").
++parent_child("Mary #4", "Jarib").
++parent_child("Jahzerah", "Jarib").
++parent_child("Basemath", "Ziphah").
++parent_child("Meraioth", "Ziphah").
++parent_child("Iscah #2", "Jakim").
++parent_child("Machbanai", "Jakim").
++parent_child("Basemath", "Peulthai").
++parent_child("Romamti-ezer", "Peulthai").
++parent_child("Sarah #2", "Joanna").
++parent_child("Jonathan son of Abiathar", "Joanna").
++parent_child("Sarah #2", "Jehiel").
++parent_child("Gilalai", "Jehiel").
++parent_child("Mahlah #2", "Hodesh").
++parent_child("Hamul", "Hodesh").
++parent_child("Iscah #2", "Regem-melech").
++parent_child("Hamul", "Regem-melech").
++parent_child("Mary #4", "Eglah #2").
++parent_child("Gamul", "Eglah #2").
++parent_child("Mahlah #2", "Huldah").
++parent_child("Neariah", "Huldah").
++parent_child("Abital", "Anak").
++parent_child("Jekamiah", "Anak").
++parent_child("Mary #4", "Shimshai").
++parent_child("Neariah", "Shimshai").
++parent_child("Abital", "Huzzab").
++parent_child("Jareb", "Huzzab").
++parent_child("Sarah #2", "Ginath").
++parent_child("Ibneiah", "Ginath").
++parent_child("Elisheba", "Antothijah").
++parent_child("Jimnah", "Antothijah").
++parent_child("Elisheba #2", "Mary #1").
++parent_child("Jesimiel", "Mary #1").
++parent_child("Abital", "Syntyche").
++parent_child("Romamti-ezer", "Syntyche").
++parent_child("Iscah #2", "Maadai").
++parent_child("Meshelemiah", "Maadai").
++parent_child("Elisheba", "Jerijah").
++parent_child("Shechem", "Jerijah").
++parent_child("Abital", "Hakkoz").
++parent_child("Jimnah", "Hakkoz").
++parent_child("Elisheba #2", "Orpah").
++parent_child("Meraioth", "Orpah").
++parent_child("Elisheba #2", "Mehetabel #2").
++parent_child("Romamti-ezer", "Mehetabel #2").
++parent_child("Mahlah #2", "Chenaanah").
++parent_child("Abida", "Chenaanah").
++parent_child("Keren–Happuch", "Deborah #1").
++parent_child("Job", "Deborah #1").
++parent_child("Keren–Happuch", "Zipporah").
++parent_child("Jimnah", "Zipporah").
++parent_child("Mary #4", "Jeuel").
++parent_child("Chimham", "Jeuel").
++parent_child("Keren–Happuch", "Eglah").
++parent_child("Raddai", "Eglah").
++parent_child("Iscah #2", "Amon").
++parent_child("Melech", "Amon").
++parent_child("Abital", "Matred").
++parent_child("Job", "Matred").
++parent_child("Keren–Happuch", "Iphdeiah").
++parent_child("Mnason", "Iphdeiah").
++parent_child("Orpah", "Hobab").
++parent_child("Jecamiah", "Hobab").
++parent_child("Deborah #1", "Hamutal").
++parent_child("Jerijah", "Hamutal").
++parent_child("Deborah #1", "Hod").
++parent_child("Jahzerah", "Hod").
++parent_child("Huldah", "Joshua the governor of the city").
++parent_child("Neariah", "Joshua the governor of the city").
++parent_child("Eglah #2", "Karshena").
++parent_child("Gamaliel", "Karshena").
++parent_child("Abital", "Jaasiel").
++parent_child("Jehiel", "Jaasiel").
++parent_child("Mary #1", "Parshandatha").
++parent_child("Jecamiah", "Parshandatha").
++parent_child("Eglah #2", "Naaman").
++parent_child("Romamti-ezer", "Naaman").
++parent_child("Mehetabel #2", "Jerah").
++parent_child("Akkub", "Jerah").
++parent_child("Zipporah", "Candace").
++parent_child("Jakim", "Candace").
++parent_child("Eglah #2", "Marsena").
++parent_child("Nahbi", "Marsena").
++parent_child("Basemath", "Beriah").
++parent_child("Antothijah", "Beriah").
++parent_child("Basemath", "Haran").
++parent_child("Elizur", "Haran").
++parent_child("Hodesh", "Gemariah").
++parent_child("Vophsi", "Gemariah").
++parent_child("Mary #1", "Gatam").
++parent_child("Neariah", "Gatam").
++parent_child("Deborah #1", "Junia or Junias").
++parent_child("Jonathan son of Abiathar", "Junia or Junias").
++parent_child("Mary #1", "Shelumiel").
++parent_child("Shechem", "Shelumiel").
++parent_child("Mary #4", "Moab").
++parent_child("Regem-melech", "Moab").
++parent_child("Iscah #2", "Idbash").
++parent_child("Neariah", "Idbash").
++parent_child("Matred", "Shelomith").
++parent_child("Neariah", "Shelomith").
++parent_child("Abital", "Mattatha").
++parent_child("Ziphah", "Mattatha").
++parent_child("Abital", "Abitub").
++parent_child("Jonathan son of Abiathar", "Abitub").
++parent_child("Joanna", "Piram").
++parent_child("Antothijah", "Piram").
++parent_child("Mary #1", "Medium of En Dor").
++parent_child("Jogli", "Medium of En Dor").
++parent_child("Mary #1", "Zillah").
++parent_child("Jesimiel", "Zillah").
++parent_child("Huldah", "Ahasbai").
++parent_child("Gamaliel", "Ahasbai").
++parent_child("Orpah", "Asareel").
++parent_child("Piram", "Asareel").
++parent_child("Matred", "Claudia #2").
++parent_child("Naaman", "Claudia #2").
++parent_child("Syntyche", "Atarah").
++parent_child("Mattatha", "Atarah").
++parent_child("Medium of En Dor", "Hashabiah").
++parent_child("Gatam", "Hashabiah").
++parent_child("Zillah", "Haggi").
++parent_child("Hakkoz", "Haggi").
++parent_child("Junia or Junias", "Laadah").
++parent_child("Moab", "Laadah").
++parent_child("Zillah", "Mary #5").
++parent_child("Marsena", "Mary #5").
++parent_child("Orpah", "Ephron").
++parent_child("Antothijah", "Ephron").
++parent_child("Eglah #2", "Beno").
++parent_child("Ginath", "Beno").
++parent_child("Syntyche", "Miriam #2").
++parent_child("Jakim", "Miriam #2").
++parent_child("Deborah #1", "Keziah #2").
++parent_child("Joshua the governor of the city", "Keziah #2").
++parent_child("Mehetabel #2", "Shinab").
++parent_child("Jehiel", "Shinab").
++parent_child("Medium of En Dor", "Gera").
++parent_child("Parshandatha", "Gera").
++parent_child("Junia or Junias", "Adnah").
++parent_child("Jakim", "Adnah").
++parent_child("Junia or Junias", "Jezebel").
++parent_child("Karshena", "Jezebel").
++parent_child("Shelomith", "Bathsheba").
++parent_child("Haran", "Bathsheba").
++parent_child("Deborah #1", "Gazez").
++parent_child("Haran", "Gazez").
++parent_child("Zillah", "Ahishahar").
++parent_child("Amon", "Ahishahar").
++parent_child("Eglah", "Paseah").
++parent_child("Regem-melech", "Paseah").
++parent_child("Orpah", "Stachys").
++parent_child("Marsena", "Stachys").
++parent_child("Joanna", "Izhar").
++parent_child("Abitub", "Izhar").
++parent_child("Hodesh", "Maacah").
++parent_child("Ginath", "Maacah").
++parent_child("Hamutal", "Abigail #4").
++parent_child("Regem-melech", "Abigail #4").
++parent_child("Hamutal", "Shemeber").
++parent_child("Joshua the governor of the city", "Shemeber").
++parent_child("Hodesh", "Ahiezer").
++parent_child("Chenaanah", "Ahiezer").
++parent_child("Miriam #2", "Michaiah").
++parent_child("Ahishahar", "Michaiah").
++parent_child("Hamutal", "Janai").
++parent_child("Parshandatha", "Janai").
++parent_child("Hamutal", "Sheshan").
++parent_child("Asareel", "Sheshan").
++parent_child("Medium of En Dor", "Hamor").
++parent_child("Beriah", "Hamor").
++parent_child("Candace", "Ezbon").
++parent_child("Idbash", "Ezbon").
++parent_child("Claudia #2", "Shiphtan").
++parent_child("Marsena", "Shiphtan").
++parent_child("Mary #5", "Palti").
++parent_child("Idbash", "Palti").
++parent_child("Atarah", "Mibhar").
++parent_child("Hobab", "Mibhar").
++parent_child("Miriam #2", "Tryphosa").
++parent_child("Joshua the governor of the city", "Tryphosa").
++parent_child("Atarah", "Maacah #2").
++parent_child("Naaman", "Maacah #2").
++parent_child("Claudia #2", "Matred #2").
++parent_child("Ahishahar", "Matred #2").
++parent_child("Zillah", "Melchi").
++parent_child("Gera", "Melchi").
++parent_child("Atarah", "Johanan son of Kareah").
++parent_child("Jerah", "Johanan son of Kareah").
++parent_child("Medium of En Dor", "Eliada").
++parent_child("Ahishahar", "Eliada").
++parent_child("Abigail #4", "Hotham").
++parent_child("Jaasiel", "Hotham").
++parent_child("Maacah", "Machi").
++parent_child("Haggi", "Machi").
++parent_child("Bathsheba", "Ibsam").
++parent_child("Hashabiah", "Ibsam").
++parent_child("Mary #5", "Melzar").
++parent_child("Haran", "Melzar").
++parent_child("Mary #5", "Zebadiah").
++parent_child("Gatam", "Zebadiah").
++parent_child("Candace", "Azaliah").
++parent_child("Shemeber", "Azaliah").
++parent_child("Keziah #2", "Ahzai").
++parent_child("Gazez", "Ahzai").
++parent_child("Zillah", "Lahmi").
++parent_child("Piram", "Lahmi").
++parent_child("Maacah", "Bukki").
++parent_child("Izhar", "Bukki").
++parent_child("Junia or Junias", "Arnan").
++parent_child("Asareel", "Arnan").
++parent_child("Abigail #4", "Zichri").
++parent_child("Izhar", "Zichri").
++parent_child("Hamutal", "Kelita").
++parent_child("Laadah", "Kelita").
++parent_child("Medium of En Dor", "Evi").
++parent_child("Jerah", "Evi").
++parent_child("Medium of En Dor", "Naomi").
++parent_child("Joshua the governor of the city", "Naomi").
++parent_child("Mary #5", "Aiah").
++parent_child("Naaman", "Aiah").
++parent_child("Claudia #2", "Hoham").
++parent_child("Gazez", "Hoham").
++parent_child("Jezebel", "Appaim").
++parent_child("Moab", "Appaim").
++parent_child("Keziah #2", "Ethni").
++parent_child("Gazez", "Ethni").
++parent_child("Junia or Junias", "Hashubah").
++parent_child("Asareel", "Hashubah").
++parent_child("Zillah", "Persian 'مهمان signifies a stranger or guest' [17] Melatiah").
++parent_child("Paseah", "Persian 'مهمان signifies a stranger or guest' [17] Melatiah").
++parent_child("Bathsheba", "Hodesh #2").
++parent_child("Ahishahar", "Hodesh #2").
++parent_child("Naomi", "Susi").
++parent_child("Gera", "Susi").
++parent_child("Bathsheba", "Pagiel").
++parent_child("Lahmi", "Pagiel").
++parent_child("Claudia #2", "Gomer").
++parent_child("Tryphosa", "Gomer").
++parent_child("Claudia #2", "Merib-baal").
++parent_child("Ephron", "Merib-baal").
++parent_child("Miriam #2", "Adah # 1").
++parent_child("Tryphosa", "Adah # 1").
++parent_child("Claudia #2", "Phurah").
++parent_child("Zebadiah", "Phurah").
++parent_child("Keziah #2", "Claudia").
++parent_child("Kelita", "Claudia").
++parent_child("Abigail #4", "Ben Abinadab").
++parent_child("Shemeber", "Ben Abinadab").
++parent_child("Claudia #2", "Joash").
++parent_child("Ezbon", "Joash").
++parent_child("Matred #2", "Meraiah").
++parent_child("Ahzai", "Meraiah").
++parent_child("Maacah #2", "Pethuel").
++parent_child("Bukki", "Pethuel").
++parent_child("Miriam #2", "Hephziba").
++parent_child("Ahishahar", "Hephziba").
++parent_child("Bathsheba", "Naarah").
++parent_child("Michaiah", "Naarah").
++parent_child("Matred #2", "Rehum").
++parent_child("Persian 'مهمان signifies a stranger or guest' [17] Melatiah", "Rehum").
++parent_child("Claudia #2", "Minjamin").
++parent_child("Hoham", "Minjamin").
++parent_child("Bathsheba", "Ittai").
++parent_child("Shiphtan", "Ittai").
++parent_child("Atarah", "Ashbel").
++parent_child("Hamor", "Ashbel").
++parent_child("Claudia #2", "Reumah").
++parent_child("Mibhar", "Reumah").
++parent_child("Matred #2", "Jeshishai").
++parent_child("Ethni", "Jeshishai").
++parent_child("Atarah", "Ibnijah").
++parent_child("Tryphosa", "Ibnijah").
++parent_child("Claudia #2", "Jaasau").
++parent_child("Azaliah", "Jaasau").
++parent_child("Matred #2", "Merab #2").
++parent_child("Ibsam", "Merab #2").
++parent_child("Atarah", "Shedeur").
++parent_child("Melzar", "Shedeur").
++parent_child("Matred #2", "Jezer").
++parent_child("Lahmi", "Jezer").
++parent_child("Maacah", "Baara").
++parent_child("Palti", "Baara").
++parent_child("Jezebel", "Kemuel").
++parent_child("Aiah", "Kemuel").
++parent_child("Mary #5", "Immer").
++parent_child("Shiphtan", "Immer").
++parent_child("Atarah", "Pethahiah").
++parent_child("Aiah", "Pethahiah").
++parent_child("Miriam #2", "Zedekiah").
++parent_child("Azaliah", "Zedekiah").
++parent_child("Maacah", "Hammolekheth").
++parent_child("Melzar", "Hammolekheth").
++parent_child("Matred #2", "Jarha").
++parent_child("Shiphtan", "Jarha").
++parent_child("Mary #5", "Dalphon").
++parent_child("Gera", "Dalphon").
++parent_child("Bathsheba", "Maon").
++parent_child("Appaim", "Maon").
++parent_child("Merab #2", "Hepher").
++parent_child("Machi", "Hepher").
++parent_child("Claudia", "Jemuel").
++parent_child("Melchi", "Jemuel").
++parent_child("Reumah", "Hon").
++parent_child("Ibsam", "Hon").
++parent_child("Reumah", "Zippor").
++parent_child("Shiphtan", "Zippor").
++parent_child("Merab #2", "Tyrannus").
++parent_child("Kemuel", "Tyrannus").
++parent_child("Merab #2", "Eunice").
++parent_child("Kelita", "Eunice").
++parent_child("Adah # 1", "Shaharaim").
++parent_child("Jezer", "Shaharaim").
++parent_child("Hammolekheth", "Hasrah").
++parent_child("Maon", "Hasrah").
++parent_child("Matred #2", "Jochebed").
++parent_child("Minjamin", "Jochebed").
++parent_child("Hodesh #2", "Gideoni").
++parent_child("Tryphosa", "Gideoni").
++parent_child("Naarah", "Zabud").
++parent_child("Sheshan", "Zabud").
++parent_child("Naarah", "Regem").
++parent_child("Meraiah", "Regem").
++parent_child("Hephziba", "Zeror").
++parent_child("Zichri", "Zeror").
++parent_child("Maacah #2", "Shimi").
++parent_child("Ittai", "Shimi").
++parent_child("Merab #2", "Miriam #1").
++parent_child("Minjamin", "Miriam #1").
++parent_child("Merab #2", "Ishvah").
++parent_child("Melzar", "Ishvah").
++parent_child("Reumah", "Henadad").
++parent_child("Kemuel", "Henadad").
++parent_child("Merab #2", "Hasupha").
++parent_child("Ibnijah", "Hasupha").
++parent_child("Matred #2", "Seled").
++parent_child("Joash", "Seled").
++parent_child("Maacah #2", "Jozachar").
++parent_child("Ben Abinadab", "Jozachar").
++parent_child("Claudia", "Azubah #1").
++parent_child("Kemuel", "Azubah #1").
++parent_child("Hammolekheth", "Hachmoni").
++parent_child("Ezbon", "Hachmoni").
++parent_child("Hodesh #2", "Ziphion").
++parent_child("Mibhar", "Ziphion").
++parent_child("Hephziba", "Jidlaph").
++parent_child("Lahmi", "Jidlaph").
++parent_child("Baara", "Meshillemoth").
++parent_child("Pethuel", "Meshillemoth").
++parent_child("Claudia", "Athaliah").
++parent_child("Jezer", "Athaliah").
++parent_child("Claudia", "Jerusha").
++parent_child("Ittai", "Jerusha").
++parent_child("Baara", "Raamiah").
++parent_child("Azaliah", "Raamiah").
++parent_child("Gomer", "Ethnan").
++parent_child("Maon", "Ethnan").
++parent_child("Hephziba", "Mahol").
++parent_child("Jaasau", "Mahol").
++parent_child("Merab #2", "Hathath").
++parent_child("Ishvah", "Hathath").
++parent_child("Merab #2", "Gishpa").
++parent_child("Ittai", "Gishpa").
++parent_child("Baara", "Barzillai").
++parent_child("Gideoni", "Barzillai").
++parent_child("Azubah #1", "Reba").
++parent_child("Ibnijah", "Reba").
++parent_child("Athaliah", "Jedidah").
++parent_child("Ittai", "Jedidah").
++parent_child("Jerusha", "Ahitub").
++parent_child("Phurah", "Ahitub").
++parent_child("Miriam #1", "Shisha").
++parent_child("Susi", "Shisha").
++parent_child("Athaliah", "Jeezer").
++parent_child("Shaharaim", "Jeezer").
++parent_child("Hodesh #2", "Jehubbah").
++parent_child("Maon", "Jehubbah").
++parent_child("Adah # 1", "Jehozabad").
++parent_child("Kemuel", "Jehozabad").
++parent_child("Claudia", "Reumah #2").
++parent_child("Hon", "Reumah #2").
++parent_child("Eunice", "Jeshaiah").
++parent_child("Ishvah", "Jeshaiah").
++parent_child("Claudia", "Phoebe").
++parent_child("Ittai", "Phoebe").
++parent_child("Hephziba", "Ahlai #1").
++parent_child("Minjamin", "Ahlai #1").
++parent_child("Hammolekheth", "Ikkesh").
++parent_child("Hon", "Ikkesh").
++parent_child("Reumah", "Alexander").
++parent_child("Pethuel", "Alexander").
++parent_child("Azubah #1", "Ben Hesed").
++parent_child("Kemuel", "Ben Hesed").
++parent_child("Merab #2", "Q").
++parent_child("Immer", "Q").
++parent_child("Azubah #1", "Shelomi").
++parent_child("Kemuel", "Shelomi").
++parent_child("Hephziba", "Rephael").
++parent_child("Jozachar", "Rephael").
++parent_child("Azubah #1", "Jahleel").
++parent_child("Kemuel", "Jahleel").
++parent_child("Claudia", "Mahalath #1").
++parent_child("Ittai", "Mahalath #1").
++parent_child("Hodesh #2", "Igal").
++parent_child("Zippor", "Igal").
++parent_child("Gomer", "Ophir").
++parent_child("Ethnan", "Ophir").
++parent_child("Miriam #1", "Jehudijah").
++parent_child("Pethuel", "Jehudijah").
++parent_child("Gomer", "Ebed-melech").
++parent_child("Ethnan", "Ebed-melech").
++parent_child("Phoebe", "Zeruiah").
++parent_child("Ophir", "Zeruiah").
++parent_child("Jedidah", "Jaaziah").
++parent_child("Zabud", "Jaaziah").
++parent_child("Eunice", "Jahaziah").
++parent_child("Regem", "Jahaziah").
++parent_child("Miriam #1", "Bela").
++parent_child("Jahleel", "Bela").
++parent_child("Eunice", "Zerah").
++parent_child("Jeezer", "Zerah").
++parent_child("Miriam #1", "Phuvah").
++parent_child("Ebed-melech", "Phuvah").
++parent_child("Miriam #1", "Poratha").
++parent_child("Rephael", "Poratha").
++parent_child("Jerusha", "Julia #2").
++parent_child("Zeror", "Julia #2").
++parent_child("Reumah #2", "Elishama").
++parent_child("Hasupha", "Elishama").
++parent_child("Eunice", "Rakem").
++parent_child("Gishpa", "Rakem").
++parent_child("Athaliah", "Priscilla").
++parent_child("Zippor", "Priscilla").
++parent_child("Jedidah", "Mary #6").
++parent_child("Ishvah", "Mary #6").
++parent_child("Jerusha", "Admin").
++parent_child("Hepher", "Admin").
++parent_child("Jerusha", "Nephish").
++parent_child("Jozachar", "Nephish").
++parent_child("Jedidah", "Mishael").
++parent_child("Jidlaph", "Mishael").
++parent_child("Jedidah", "Izziah").
++parent_child("Q", "Izziah").
++parent_child("Jochebed", "Mijamin").
++parent_child("Ethnan", "Mijamin").
++parent_child("Mahalath #1", "Elead").
++parent_child("Jehozabad", "Elead").
++parent_child("Jehudijah", "Mahali").
++parent_child("Tyrannus", "Mahali").
++parent_child("Reumah #2", "Chelal").
++parent_child("Shaharaim", "Chelal").
++parent_child("Reumah #2", "Abdeel").
++parent_child("Raamiah", "Abdeel").
++parent_child("Mahalath #1", "Nebat").
++parent_child("Henadad", "Nebat").
++parent_child("Ahlai #1", "Azubah #2").
++parent_child("Ahitub", "Azubah #2").
++parent_child("Mahalath #1", "Harum").
++parent_child("Shaharaim", "Harum").
++parent_child("Ahlai #1", "Matthat").
++parent_child("Hepher", "Matthat").
++parent_child("Ahlai #1", "Susanna #2").
++parent_child("Ziphion", "Susanna #2").
++parent_child("Miriam #1", "Michal").
++parent_child("Jehubbah", "Michal").
++parent_child("Mahalath #1", "Elimelech").
++parent_child("Ebed-melech", "Elimelech").
++parent_child("Jedidah", "Deuel").
++parent_child("Igal", "Deuel").
++parent_child("Ahlai #1", "Hajehudijah").
++parent_child("Ziphion", "Hajehudijah").
++parent_child("Eunice", "Hiel").
++parent_child("Zippor", "Hiel").
++parent_child("Mahalath #1", "Muppim").
++parent_child("Jeezer", "Muppim").
++parent_child("Julia #2", "Ebed").
++parent_child("Ben Hesed", "Ebed").
++parent_child("Ahlai #1", "Sarsekim").
++parent_child("Phuvah", "Sarsekim").
++parent_child("Mary #6", "Joahaz").
++parent_child("Shisha", "Joahaz").
++parent_child("Phoebe", "Abiel").
++parent_child("Jeezer", "Abiel").
++parent_child("Azubah #2", "Athaiah").
++parent_child("Q", "Athaiah").
++parent_child("Azubah #2", "Ahlai").
++parent_child("Nebat", "Ahlai").
++parent_child("Ahlai #1", "Hiram").
++parent_child("Gishpa", "Hiram").
++parent_child("Susanna #2", "Ben-Ammi").
++parent_child("Elimelech", "Ben-Ammi").
++parent_child("Susanna #2", "Julia").
++parent_child("Rephael", "Julia").
++parent_child("Julia #2", "Michri").
++parent_child("Hiel", "Michri").
++parent_child("Priscilla", "Areli").
++parent_child("Mahali", "Areli").
++parent_child("Jehudijah", "Shelomit #1").
++parent_child("Elead", "Shelomit #1").
++parent_child("Julia #2", "Assir").
++parent_child("Rakem", "Assir").
++parent_child("Priscilla", "Ajah").
++parent_child("Ikkesh", "Ajah").
++parent_child("Zeruiah", "Peleth").
++parent_child("Ikkesh", "Peleth").
++parent_child("Mary #6", "Gaddi").
++parent_child("Ebed-melech", "Gaddi").
++parent_child("Zeruiah", "Aedias").
++parent_child("Poratha", "Aedias").
++parent_child("Azubah #2", "Elihoreph").
++parent_child("Admin", "Elihoreph").
++parent_child("Phoebe", "Seba").
++parent_child("Rephael", "Seba").
++parent_child("Susanna #2", "Phalti").
++parent_child("Shisha", "Phalti").
++parent_child("Julia #2", "Lo-Ammi").
++parent_child("Elead", "Lo-Ammi").
++parent_child("Jedidah", "Izri").
++parent_child("Mahol", "Izri").
++parent_child("Azubah #2", "Joshibiah").
++parent_child("Jahaziah", "Joshibiah").
++parent_child("Susanna #2", "Irijah").
++parent_child("Rakem", "Irijah").
++parent_child("Susanna #2", "Jamlech").
++parent_child("Izziah", "Jamlech").
++parent_child("Jedidah", "Susanna #1").
++parent_child("Ophir", "Susanna #1").
++parent_child("Reumah #2", "Rabmag").
++parent_child("Mijamin", "Rabmag").
++parent_child("Priscilla", "Dishan").
++parent_child("Mijamin", "Dishan").
++parent_child("Julia #2", "Ahi").
++parent_child("Elimelech", "Ahi").
++parent_child("Susanna #2", "Naharai").
++parent_child("Muppim", "Naharai").
++parent_child("Mary #6", "Semachiah").
++parent_child("Admin", "Semachiah").
++parent_child("Azubah #2", "Jehizkiah").
++parent_child("Q", "Jehizkiah").
++parent_child("Priscilla", "Milcah #1").
++parent_child("Bela", "Milcah #1").
++parent_child("Ahlai #1", "Elioenai").
++parent_child("Igal", "Elioenai").
++parent_child("Julia", "Naamah #1").
++parent_child("Aedias", "Naamah #1").
++parent_child("Julia #2", "Bilhah").
++parent_child("Harum", "Bilhah").
++parent_child("Mary #6", "Joseph").
++parent_child("Poratha", "Joseph").
++parent_child("Julia #2", "Eshek").
++parent_child("Rakem", "Eshek").
++parent_child("Zeruiah", "Ephod").
++parent_child("Zerah", "Ephod").
++parent_child("Susanna #2", "Jibsam").
++parent_child("Jehizkiah", "Jibsam").
++parent_child("Michal", "Hazelelponi (or Hazzelelponi)").
++parent_child("Ahi", "Hazelelponi (or Hazzelelponi)").
++parent_child("Mary #6", "Zaavan").
++parent_child("Lo-Ammi", "Zaavan").
++parent_child("Priscilla", "Helkai").
++parent_child("Jamlech", "Helkai").
++parent_child("Julia", "Hanoch").
++parent_child("Harum", "Hanoch").
++parent_child("Shelomit #1", "Hanniel").
++parent_child("Mahali", "Hanniel").
++parent_child("Zeruiah", "Hammoleketh").
++parent_child("Elioenai", "Hammoleketh").
++parent_child("Milcah #1", "Aharhel").
++parent_child("Bela", "Aharhel").
++parent_child("Azubah #2", "Ishmerai").
++parent_child("Chelal", "Ishmerai").
++parent_child("Zeruiah", "Mahath").
++parent_child("Izziah", "Mahath").
++parent_child("Shelomit #1", "Matri").
++parent_child("Hiram", "Matri").
++parent_child("Milcah #1", "Eliathah").
++parent_child("Mijamin", "Eliathah").
++parent_child("Julia #2", "Imna").
++parent_child("Hiram", "Imna").
++parent_child("Susanna #2", "Shammua").
++parent_child("Ben-Ammi", "Shammua").
++parent_child("Azubah #2", "Ahuzzam").
++parent_child("Irijah", "Ahuzzam").
++parent_child("Susanna #2", "Rephaiah").
++parent_child("Mishael", "Rephaiah").
++parent_child("Michal", "Shemaiah").
++parent_child("Elioenai", "Shemaiah").
++parent_child("Susanna #2", "Basemeth #1").
++parent_child("Bela", "Basemeth #1").
++parent_child("Zeruiah", "Carshena").
++parent_child("Elishama", "Carshena").
++parent_child("Azubah #2", "Hezekiah").
++parent_child("Poratha", "Hezekiah").
++parent_child("Julia", "Salu").
++parent_child("Ajah", "Salu").
++parent_child("Michal", "Jehoaddan").
++parent_child("Dishan", "Jehoaddan").
++parent_child("Susanna #1", "Sheconiah").
++parent_child("Izri", "Sheconiah").
++parent_child("Azubah #2", "Diklah").
++parent_child("Hajehudijah", "Diklah").
++parent_child("Milcah #1", "Isshiah").
++parent_child("Abdeel", "Isshiah").
++parent_child("Susanna #1", "Ephlal").
++parent_child("Mahali", "Ephlal").
++parent_child("Susanna #2", "Shimeah").
++parent_child("Hajehudijah", "Shimeah").
++parent_child("Azubah #2", "Eve").
++parent_child("Elishama", "Eve").
++parent_child("Susanna #2", "Queen Vashti").
++parent_child("Sarsekim", "Queen Vashti").
++parent_child("Susanna #1", "Adlai").
++parent_child("Naharai", "Adlai").
++parent_child("Susanna #2", "Joshbekashah").
++parent_child("Harum", "Joshbekashah").
++parent_child("Shelomit #1", "Maaseiah").
++parent_child("Salu", "Maaseiah").
++parent_child("Hazelelponi (or Hazzelelponi)", "Barkos").
++parent_child("Assir", "Barkos").
++parent_child("Milcah #1", "Anaiah").
++parent_child("Zaavan", "Anaiah").
++parent_child("Julia", "Pinon").
++parent_child("Dishan", "Pinon").
++parent_child("Hazelelponi (or Hazzelelponi)", "Jekuthiel").
++parent_child("Joahaz", "Jekuthiel").
++parent_child("Bilhah", "Azzan").
++parent_child("Hanoch", "Azzan").
++parent_child("Eve", "Asiel").
++parent_child("Gaddi", "Asiel").
++parent_child("Milcah #1", "Japhia").
++parent_child("Aharhel", "Japhia").
++parent_child("Susanna #1", "Mahlah").
++parent_child("Hammoleketh", "Mahlah").
++parent_child("Naamah #1", "Ahinoam #2").
++parent_child("Mahath", "Ahinoam #2").
++parent_child("Milcah #1", "Joshaviah").
++parent_child("Hammoleketh", "Joshaviah").
++parent_child("Queen Vashti", "Harim").
++parent_child("Diklah", "Harim").
++parent_child("Susanna #1", "Tirzah").
++parent_child("Rephaiah", "Tirzah").
++parent_child("Basemeth #1", "Homam").
++parent_child("Ephlal", "Homam").
++parent_child("Susanna #1", "Mash").
++parent_child("Carshena", "Mash").
++parent_child("Eve", "Jezebel #1").
++parent_child("Eshek", "Jezebel #1").
++parent_child("Bilhah", "Maasiai").
++parent_child("Ahuzzam", "Maasiai").
++parent_child("Susanna #1", "Harhaiah").
++parent_child("Mahath", "Harhaiah").
++parent_child("Julia", "Lois, grandmother of Saint Timothy. II Timothy[101]").
++parent_child("Assir", "Lois, grandmother of Saint Timothy. II Timothy[101]").
++parent_child("Bilhah", "Pul").
++parent_child("Ben-Ammi", "Pul").
++parent_child("Shelomit #1", "Gideon").
++parent_child("Aedias", "Gideon").
++parent_child("Milcah #1", "Milcah #2").
++parent_child("Ishmerai", "Milcah #2").
++parent_child("Ahinoam #2", "Ishmaiah").
++parent_child("Japhia", "Ishmaiah").
++parent_child("Naamah #1", "Elnathan").
++parent_child("Carshena", "Elnathan").
++parent_child("Bilhah", "Maher-shalal-hash-baz").
++parent_child("Shammua", "Maher-shalal-hash-baz").
++parent_child("Milcah #2", "Shemuel").
++parent_child("Anaiah", "Shemuel").
++parent_child("Basemeth #1", "Abdon").
++parent_child("Maasiai", "Abdon").
++parent_child("Hazelelponi (or Hazzelelponi)", "Ruth").
++parent_child("Harhaiah", "Ruth").
++parent_child("Milcah #2", "Azariah").
++parent_child("Hammoleketh", "Azariah").
++parent_child("Jezebel #1", "Jezrahiah").
++parent_child("Adlai", "Jezrahiah").
++parent_child("Jehoaddan", "Shephatiah").
++parent_child("Helkai", "Shephatiah").
++parent_child("Milcah #2", "Barachel").
++parent_child("Ephod", "Barachel").
++parent_child("Jehoaddan", "Saph").
++parent_child("Maaseiah", "Saph").
++parent_child("Lois, grandmother of Saint Timothy. II Timothy[101]", "Dodavahu").
++parent_child("Shammua", "Dodavahu").
++parent_child("Bilhah", "Rezon").
++parent_child("Shimeah", "Rezon").
++parent_child("Jehoaddan", "Shearjashub").
++parent_child("Barkos", "Shearjashub").
++parent_child("Queen Vashti", "Tamar #2").
++parent_child("Matri", "Tamar #2").
++parent_child("Queen Vashti", "Taphath").
++parent_child("Ahuzzam", "Taphath").
++parent_child("Jezebel #1", "Alvan").
++parent_child("Jibsam", "Alvan").
++parent_child("Eve", "Zabdi").
++parent_child("Eliathah", "Zabdi").
++parent_child("Tirzah", "Darda").
++parent_child("Asiel", "Darda").
++parent_child("Queen Vashti", "Iram").
++parent_child("Maasiai", "Iram").
++parent_child("Tirzah", "Ben Hur").
++parent_child("Adlai", "Ben Hur").
++parent_child("Lois, grandmother of Saint Timothy. II Timothy[101]", "Hazaiah").
++parent_child("Hanniel", "Hazaiah").
++parent_child("Basemeth #1", "Elzabad").
++parent_child("Isshiah", "Elzabad").
++parent_child("Milcah #2", "Malchiel").
++parent_child("Salu", "Malchiel").
++parent_child("Milcah #2", "Joed").
++parent_child("Zaavan", "Joed").
++parent_child("Jehoaddan", "Ahishar").
++parent_child("Joshaviah", "Ahishar").
++parent_child("Basemeth #1", "Harhas").
++parent_child("Mahath", "Harhas").
++parent_child("Milcah #2", "Phallu").
++parent_child("Aharhel", "Phallu").
++parent_child("Ahinoam #2", "Shemida").
++parent_child("Harhaiah", "Shemida").
++parent_child("Eve", "Azaniah").
++parent_child("Carshena", "Azaniah").
++parent_child("Bilhah", "Jehosheba (or Jehoshebeath/Josaba)").
++parent_child("Hanniel", "Jehosheba (or Jehoshebeath/Josaba)").
++parent_child("Jehoaddan", "Haddad").
++parent_child("Anaiah", "Haddad").
++parent_child("Tirzah", "Hammelech").
++parent_child("Anaiah", "Hammelech").
++parent_child("Queen Vashti", "Jehallelel").
++parent_child("Helkai", "Jehallelel").
++parent_child("Eve", "Harumaph").
++parent_child("Mash", "Harumaph").
++parent_child("Queen Vashti", "Jaareshiah").
++parent_child("Harhaiah", "Jaareshiah").
++parent_child("Lois, grandmother of Saint Timothy. II Timothy[101]", "Milalai").
++parent_child("Joshbekashah", "Milalai").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Hanameel").
++parent_child("Malchiel", "Hanameel").
++parent_child("Jezebel #1", "Hodaviah").
++parent_child("Maher-shalal-hash-baz", "Hodaviah").
++parent_child("Taphath", "Ahuzzath").
++parent_child("Iram", "Ahuzzath").
++parent_child("Jezebel #1", "Jeziah").
++parent_child("Joed", "Jeziah").
++parent_child("Mahlah", "Paltiel").
++parent_child("Phallu", "Paltiel").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Adah #2").
++parent_child("Pul", "Adah #2").
++parent_child("Jezebel #1", "Elasah").
++parent_child("Maaseiah", "Elasah").
++parent_child("Tamar #2", "Naum").
++parent_child("Joed", "Naum").
++parent_child("Ahinoam #2", "Iri").
++parent_child("Hazaiah", "Iri").
++parent_child("Tirzah", "Imri").
++parent_child("Hammelech", "Imri").
++parent_child("Taphath", "Ammizabad").
++parent_child("Jekuthiel", "Ammizabad").
++parent_child("Lois, grandmother of Saint Timothy. II Timothy[101]", "Naggai").
++parent_child("Jekuthiel", "Naggai").
++parent_child("Taphath", "Jobab").
++parent_child("Barkos", "Jobab").
++parent_child("Jezebel #1", "Elon").
++parent_child("Elzabad", "Elon").
++parent_child("Milcah #2", "Jesui").
++parent_child("Shearjashub", "Jesui").
++parent_child("Jezebel #1", "Shaphat").
++parent_child("Jaareshiah", "Shaphat").
++parent_child("Tamar #2", "Jezebel #2").
++parent_child("Ishmaiah", "Jezebel #2").
++parent_child("Taphath", "Rosh").
++parent_child("Pinon", "Rosh").
++parent_child("Jezebel #1", "Michael").
++parent_child("Azariah", "Michael").
++parent_child("Lois, grandmother of Saint Timothy. II Timothy[101]", "Meshullam").
++parent_child("Abdon", "Meshullam").
++parent_child("Ahinoam #2", "Tola").
++parent_child("Rezon", "Tola").
++parent_child("Jezebel #1", "Hazo").
++parent_child("Milalai", "Hazo").
++parent_child("Tamar #2", "Ishpah").
++parent_child("Jaareshiah", "Ishpah").
++parent_child("Taphath", "Jarah").
++parent_child("Ben Hur", "Jarah").
++parent_child("Mahlah", "Abihail #2").
++parent_child("Zabdi", "Abihail #2").
++parent_child("Jezebel #1", "Imla").
++parent_child("Malchiel", "Imla").
++parent_child("Mahlah", "Timnah (or Timna)").
++parent_child("Anaiah", "Timnah (or Timna)").
++parent_child("Tirzah", "Kelal").
++parent_child("Homam", "Kelal").
++parent_child("Jezebel #1", "Jokim").
++parent_child("Shearjashub", "Jokim").
++parent_child("Ahinoam #2", "Ishiah").
++parent_child("Mash", "Ishiah").
++parent_child("Ruth", "Leah").
++parent_child("Shephatiah", "Leah").
++parent_child("Timnah (or Timna)", "Methushael").
++parent_child("Joed", "Methushael").
++parent_child("Leah", "Massa").
++parent_child("Naum", "Massa").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Jesher").
++parent_child("Hazaiah", "Jesher").
++parent_child("Leah", "Mushi").
++parent_child("Iri", "Mushi").
++parent_child("Abihail #2", "Jahzeiah").
++parent_child("Harumaph", "Jahzeiah").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Geuel").
++parent_child("Maher-shalal-hash-baz", "Geuel").
++parent_child("Taphath", "Jushab-hesed").
++parent_child("Jarah", "Jushab-hesed").
++parent_child("Ruth", "Joelah").
++parent_child("Paltiel", "Joelah").
++parent_child("Ruth", "Anah").
++parent_child("Kelal", "Anah").
++parent_child("Ruth", "Hakkatan").
++parent_child("Rosh", "Hakkatan").
++parent_child("Jezebel #2", "Zuriel").
++parent_child("Shearjashub", "Zuriel").
++parent_child("Tamar #2", "Hodiah's wife").
++parent_child("Elzabad", "Hodiah's wife").
++parent_child("Jezebel #2", "Shimron").
++parent_child("Dodavahu", "Shimron").
++parent_child("Jezebel #2", "Hadadezer").
++parent_child("Dodavahu", "Hadadezer").
++parent_child("Taphath", "Noadiah").
++parent_child("Meshullam", "Noadiah").
++parent_child("Timnah (or Timna)", "Jaasu").
++parent_child("Milalai", "Jaasu").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Zaccur").
++parent_child("Michael", "Zaccur").
++parent_child("Taphath", "Malluch").
++parent_child("Rosh", "Malluch").
++parent_child("Jezebel #2", "Jeush").
++parent_child("Abdon", "Jeush").
++parent_child("Jehosheba (or Jehoshebeath/Josaba)", "Basemeth #3").
++parent_child("Elzabad", "Basemeth #3").
++parent_child("Abihail #2", "Eleasah").
++parent_child("Jaareshiah", "Eleasah").
++parent_child("Tamar #2", "Uri").
++parent_child("Ahuzzath", "Uri").
++parent_child("Jezebel #2", "Dodo").
++parent_child("Darda", "Dodo").
++parent_child("Abihail #2", "Pelatiah").
++parent_child("Jezrahiah", "Pelatiah").
++parent_child("Jezebel #2", "Joshah").
++parent_child("Maher-shalal-hash-baz", "Joshah").
++parent_child("Timnah (or Timna)", "Adna").
++parent_child("Shemida", "Adna").
++parent_child("Tamar #2", "Mehetabeel").
++parent_child("Imla", "Mehetabeel").
++parent_child("Leah", "Eri").
++parent_child("Darda", "Eri").
++parent_child("Leah", "Mehuman").
++parent_child("Zabdi", "Mehuman").
++parent_child("Ruth", "Narcissus").
++parent_child("Ishpah", "Narcissus").
++parent_child("Taphath", "Isui").
++parent_child("Jehallelel", "Isui").
++parent_child("Leah", "Deborah #2").
++parent_child("Jarah", "Deborah #2").
++parent_child("Basemeth #3", "Zurishaddai").
++parent_child("Zaccur", "Zurishaddai").
++parent_child("Jezebel #2", "Sachia").
++parent_child("Malluch", "Sachia").
++parent_child("Timnah (or Timna)", "Eluzai").
++parent_child("Michael", "Eluzai").
++parent_child("Adah #2", "Bithiah").
++parent_child("Ishiah", "Bithiah").
++parent_child("Mehetabeel", "Anan").
++parent_child("Joelah", "Anan").
++parent_child("Deborah #2", "Tahan").
++parent_child("Isui", "Tahan").
++parent_child("Deborah #2", "Ishbah").
++parent_child("Jesher", "Ishbah").
++parent_child("Timnah (or Timna)", "Iscah").
++parent_child("Jobab", "Iscah").
++parent_child("Leah", "Eliphal").
++parent_child("Imla", "Eliphal").
++parent_child("Deborah #2", "Meres").
++parent_child("Eri", "Meres").
++parent_child("Deborah #2", "Dinah").
++parent_child("Jesui", "Dinah").
++parent_child("Jezebel #2", "Hermogenes").
++parent_child("Jaasu", "Hermogenes").
++parent_child("Basemeth #3", "Cozbi").
++parent_child("Jeush", "Cozbi").
++parent_child("Deborah #2", "Sodi").
++parent_child("Elasah", "Sodi").
++parent_child("Noadiah", "Lo–Ruhamah").
++parent_child("Ishiah", "Lo–Ruhamah").
++parent_child("Leah", "Ziza").
++parent_child("Uri", "Ziza").
++parent_child("Hodiah's wife", "Machbena").
++parent_child("Massa", "Machbena").
++parent_child("Adah #2", "Habaiah").
++parent_child("Mehuman", "Habaiah").
++parent_child("Hodiah's wife", "Meremoth").
++parent_child("Geuel", "Meremoth").
++parent_child("Mehetabeel", "Jaasai").
++parent_child("Eleasah", "Jaasai").
++parent_child("Anah", "Heldai").
++parent_child("Jokim", "Heldai").
++parent_child("Hodiah's wife", "Hoshama").
++parent_child("Ishiah", "Hoshama").
++parent_child("Basemeth #3", "Shiphrah").
++parent_child("Shaphat", "Shiphrah").
++parent_child("Leah", "Nepheg").
++parent_child("Ahuzzath", "Nepheg").
++parent_child("Deborah #2", "Hagab").
++parent_child("Rosh", "Hagab").
++parent_child("Anah", "Zilpah").
++parent_child("Methushael", "Zilpah").
++parent_child("Timnah (or Timna)", "Shammah").
++parent_child("Iri", "Shammah").
++parent_child("Basemeth #3", "Jehiah").
++parent_child("Malluch", "Jehiah").
++parent_child("Jezebel #2", "Eubulus").
++parent_child("Jaasu", "Eubulus").
++parent_child("Anah", "Amminadib").
++parent_child("Meshullam", "Amminadib").
++parent_child("Basemeth #3", "Adalia").
++parent_child("Hadadezer", "Adalia").
++parent_child("Hodiah's wife", "Dibri").
++parent_child("Elon", "Dibri").
++parent_child("Zilpah", "Chislon").
++parent_child("Dibri", "Chislon").
++parent_child("Noadiah", "Shagee").
++parent_child("Malluch", "Shagee").
++parent_child("Mehetabeel", "Abiasaph").
++parent_child("Heldai", "Abiasaph").
++parent_child("Anah", "Zalmon").
++parent_child("Jahzeiah", "Zalmon").
++parent_child("Mehetabeel", "Isshijah").
++parent_child("Narcissus", "Isshijah").
++parent_child("Hodiah's wife", "Adina").
++parent_child("Eubulus", "Adina").
++parent_child("Deborah #2", "Ismaiah").
++parent_child("Zurishaddai", "Ismaiah").
++parent_child("Noadiah", "Agee").
++parent_child("Isui", "Agee").
++parent_child("Mehetabeel", "Sabtechah").
++parent_child("Machbena", "Sabtechah").
++parent_child("Basemeth #3", "Hushim").
++parent_child("Jaasai", "Hushim").
++parent_child("Basemeth #3", "Nobah").
++parent_child("Shammah", "Nobah").
++parent_child("Deborah #2", "Elienai").
++parent_child("Zurishaddai", "Elienai").
++parent_child("Iscah", "Chalcol").
++parent_child("Heldai", "Chalcol").
++parent_child("Basemeth #3", "Hannah").
++parent_child("Anan", "Hannah").
++parent_child("Noadiah", "Damaris. Acts[41]").
++parent_child("Hoshama", "Damaris. Acts[41]").
++parent_child("Noadiah", "Pelaiah").
++parent_child("Geuel", "Pelaiah").
++parent_child("Lo–Ruhamah", "Irad").
++parent_child("Ziza", "Irad").
++parent_child("Basemeth #3", "Salome #2").
++parent_child("Ziza", "Salome #2").
++parent_child("Dinah", "Ahab").
++parent_child("Nepheg", "Ahab").
++parent_child("Hodiah's wife", "Jaziz").
++parent_child("Jeush", "Jaziz").
++parent_child("Anah", "Mahalath").
++parent_child("Isui", "Mahalath").
++parent_child("Zilpah", "Abishag").
++parent_child("Zuriel", "Abishag").
