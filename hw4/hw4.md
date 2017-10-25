@@ -74,7 +74,7 @@ In this homework, you will analyze a database of 800 individuals, compute severa
 ### Getting Started
 
 1. Sign up for a free account on [Cloud9](https://c9.io/login).  You will be asked for a credit card, but that will not be charged.  Login to Cloud9.
-2. Next, [create a workspace through Logicbox website](https://developer.logicblox.com/using-cloud9-for-logicblox/) for your project.  Give a name to your workspace, e.g., `CSEP544-HW4`.
+2. Next, [create a workspace through Logicbox website](https://developer.logicblox.com/using-cloud9-for-logicblox/) for your project.  Give a name to your workspace, e.g., `csep544-hw4`.
 3. You will see three panes: a file directory (left), open files (right), and the console of shell terminals (bottom). 
 4. In the file directory, under `csep544-hw4` create your homework subdirectory (right click on `csep544-hw4` and select "New Folder"), call it something (say MyFiles)
 5. Select your folder (MyFiles), then Go to File → “upload local files” (they should go under MyFiles). Drag-and-drop also works.
