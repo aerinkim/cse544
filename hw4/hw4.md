@@ -23,7 +23,7 @@ Part 1: pen and paper; Part 2: LogicQL and Cloud9
     
 - [Cloud9](https://c9.io/login), LogicBlox's cloud offering. Start your project [here](https://developer.logicblox.com/using-cloud9-for-logicblox/). 
 
-- [Database and starter code](https://courses.cs.washington.edu/courses/cse344/genealogy.tar.gz) for Part 2.
+- [Database and starter code](https://courses.cs.washington.edu/courses/cse344/genealogy.tar.gz) for Part 2. (We've provided the unzipped files in `hw4/starter-code`)
 
 - General information for Part 2:    
     - The [Mitochondrial Eve](https://en.wikipedia.org/wiki/Mitochondrial_Eve)        
@@ -76,9 +76,10 @@ In this homework, you will analyze a database of 800 individuals, compute severa
 1. Sign up for a free account on [Cloud9](https://c9.io/login).  You will be asked for a credit card, but that will not be charged.  Login to Cloud9.
 2. Next, [create a workspace through Logicbox website](https://developer.logicblox.com/using-cloud9-for-logicblox/) for your project.  Give a name to your workspace, e.g., `CSEP544-HW4`.
 3. You will see three panes: a file directory (left), open files (right), and the console of shell terminals (bottom). 
-4. In the file directory, under `CSEP544-HW4` create your homework subdirectory (right click on `CSEP544-HW4` and select "New Folder"), call it something (say MyFiles)
+4. In the file directory, under `csep544-hw4` create your homework subdirectory (right click on `csep544-hw4` and select "New Folder"), call it something (say MyFiles)
 5. Select your folder (MyFiles), then Go to File → “upload local files” (they should go under MyFiles). Drag-and-drop also works.
-6. Select all files/directory in your `hw4/starter-code` directory, and upload (`g.sh`, `g.logic`, and the `DATA` directory)
+6. If you have `hw4/starter-code` saved in your local computer, select all files/directory in your `hw4/starter-code` directory, and upload (`g.sh`, `g.logic`, and the `DATA` directory).
+    Alternatively, you can download and unzip `genealogy.tar.gz` linked on Resources section above, then upload `g.sh` and `g.logic` into MyFiles, create a new folder in MyFiles (by right-clicking My Files and select "New Folder") called "DATA", then upload the rest of the files into "DATA" directory (`data_*.logic`)
 7. Once uploaded, click on the file `g.sh`; it will open in the files pane on the right.
 8. Click on the green Run button of the files pane: you should see activity in one of the consoles (bottom pane); in a few seconds the genealogy database is loaded into LogicBlox.
 9. Go to the “bash” terminal in the console pane
