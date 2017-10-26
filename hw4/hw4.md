@@ -37,7 +37,8 @@ Part 1: pen and paper; Part 2: LogicQL and Cloud9
 
 ### Part 1: Warm Up with Relational Algebra
 
-1. (10 points) Write the equivalent SQL query to this [relational algebra plan](ra.pdf "Relational Algebra Plan"). Save your answer in `hw4-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW2 and HW3!*
+1. (10 points) Write the equivalent SQL query to this [relational algebra plan](ra.pdf "Relational Algebra Plan"). Save your answer in `hw4-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW2 and HW3! (we reserve the right to take off points even if your query returns the correct results)*
+
 
 2. (10 points) Write a relational algebra plan for the following SQL query:
 
