@@ -15,7 +15,7 @@ Part 1: pen and paper; Part 2: LogicQL and Cloud9
 **Resources:** 
 
 - LogicBlox [tutorial](https://developer.logicblox.com/content/docs4/tutorial/repl/section/split.html) with their [REPL](https://developer.logicblox.com/playground/) (read-eval-print-loop). 
-**Make sure you go through it! **
+**Make sure you go through it!**
     
 - LogicQL [language documentation](https://developer.logicblox.com/content/docs4/core-reference/webhelp/part-logiql.html)
     
@@ -37,7 +37,8 @@ Part 1: pen and paper; Part 2: LogicQL and Cloud9
 
 ### Part 1: Warm Up with Relational Algebra
 
-1. (10 points) Write the equivalent SQL query to this [relational algebra plan](ra.pdf "Relational Algebra Plan"). Save your answer in `hw4-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW2 and HW3!*
+1. (10 points) Write the equivalent SQL query to this [relational algebra plan](ra.pdf "Relational Algebra Plan"). Save your answer in `hw4-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW2 and HW3! (we reserve the right to take off points even if your query returns the correct results)*
+
 
 2. (10 points) Write a relational algebra plan for the following SQL query:
 
@@ -96,19 +97,19 @@ In this homework, you will analyze a database of 800 individuals, compute severa
 ### Questions
 For each question below, write in the file g.logic a program that computes the answer to that question. See the Example section below.
 
-3. (10 points) Find all descendants of Priscilla and their descriptions.  Name your predicate `p1(x,d)`.
+1. (10 points) Find all descendants of Priscilla and their descriptions.  Name your predicate `p1(x,d)`. (123 rows)
 
 
-4. (10 points) Find the woman/women with the largest number of children and the man/men with the largest number of children. For each individual, you should return the name of that individual, his/her description, and the number of children. Name your predicate `p2(x,d,n)`.
+2. (10 points) Find the woman/women with the largest number of children and the man/men with the largest number of children. For each individual, you should return the name of that individual, his/her description, and the number of children. Name your predicate `p2(x,d,n)`. (2 rows)
 
 
-5. (20 points) For each person x, we call a "complete lineage" any sequence x0=x, x1, x2, … , xn where each person is the parent of the previous person, and the last person has no parents; the length of the sequence is n.  If x has a complete lineage of length n, then we also say that "x is in generation n".  Compute the minimum and maximum generation of each living person x. 
+3. (20 points) For each person x, we call a "complete lineage" any sequence x0=x, x1, x2, … , xn where each person is the parent of the previous person, and the last person has no parents; the length of the sequence is n.  If x has a complete lineage of length n, then we also say that "x is in generation n".  Compute the minimum and maximum generation of each living person x. 
 
-    Name your predicate `p3(x,m1,m2)`, where x is a living person, and `m1`, `m2` are the minimal/maximal generation. (Hint: You may want to first compute all generations for all x: think about when can you say that x is in generation 0, and when can you say that x is in generation n+1.  Of course x can be in multiple generations, e.g., x's mother is in generation 0 and x's father is in generation 2.   Once you know everybody's generations, you can answer the problem easily.)
+    Name your predicate `p3(x,m1,m2)`, where x is a living person, and `m1`, `m2` are the minimal/maximal generation. (Hint: You may want to first compute all generations for all x: think about when can you say that x is in generation 0, and when can you say that x is in generation n+1.  Of course x can be in multiple generations, e.g., x's mother is in generation 0 and x's father is in generation 2.   Once you know everybody's generations, you can answer the problem easily.) (22 rows)
 
-6. (20 points) Compute all matrimonial common ancestors, MCA. Name your predicate `p4(x)`.
+4. (20 points) Compute all matrilineal common ancestors, MCA. Name your predicate `p4(x)`. (6 rows)
 
-7. (20 points) Find the mithocondrial Eve.  Name your predicate `p5(x)`. Remember that you can utilize your predicates defined earlier.
+5. (20 points) Find the mitochondrial Eve.  Name your predicate `p5(x)`. Remember that you can utilize your predicates defined earlier. (1 row)
 
 
 #### Example
