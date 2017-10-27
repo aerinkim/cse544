@@ -107,9 +107,9 @@ For each question below, write in the file g.logic a program that computes the a
 
     Name your predicate `p3(x,m1,m2)`, where x is a living person, and `m1`, `m2` are the minimal/maximal generation. (Hint: You may want to first compute all generations for all x: think about when can you say that x is in generation 0, and when can you say that x is in generation n+1.  Of course x can be in multiple generations, e.g., x's mother is in generation 0 and x's father is in generation 2.   Once you know everybody's generations, you can answer the problem easily.) (22 rows)
 
-4. (20 points) Compute all matrimonial common ancestors, MCA. Name your predicate `p4(x)`. (6 rows)
+4. (20 points) Compute all matrilineal common ancestors, MCA. Name your predicate `p4(x)`. (6 rows)
 
-5. (20 points) Find the mithocondrial Eve.  Name your predicate `p5(x)`. Remember that you can utilize your predicates defined earlier. (1 row)
+5. (20 points) Find the mitochondrial Eve.  Name your predicate `p5(x)`. Remember that you can utilize your predicates defined earlier. (1 row)
 
 
 #### Example
