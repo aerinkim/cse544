@@ -1,0 +1,36 @@
+1. Join optimization, as presented in the paper, is highly dependent on the effectiveness of cost estimation. How does the paper propose to compute the cost of a single relation access path? What statistics are used to estimate the cost of query plans? What are the benefits and limitations of this approach?
+
+The optimizer looks at four key pieces of information:
+
+a)the predicates in the query
+b)the access paths available on the relations referenced in the query
+c)statistics that are maintained on relations and access paths
+d)the desired output ordering (if any) – i.e. an ORDER BY or GROUP BY clause
+
+COST = PAGE FETCHES + W * (RSI CALLS).
+This cost is a weighted measure of I/O (pages fetched) and CPU utilization (instructions executed). W is an adjustable weighting factor between I/O and CPU. RSI CALLS is the predicted number of tuples returned from the RSS. 
+
+During catalog lookup, the OPTIMIZER retrieves statistics on the relations in the query and on the access paths available on each relation. The statistics kept are the following:
+For each relation T,
+- NCARD(T), the cardinality of relation T.
+- TCARD(T), the number of pages in the segment that hold tuples of relation T.
+- P(T), the fraction of data pages in the segment that hold tuples of relation T. P(T) = TCARD(T) / (no. of non-empty pages in the segment).
+
+Benefits: Since most of System R’s CPU time is spent in the RSS, the number of RSI calls is a good approximation for CPU utilization. Thus the choice of a minimum cost path to process a query attempts to minimize total resources required.
+Limitation: This optimizer does not actually return a mathematically “optimal” solution. Rather, it provides a set of heuristics that estimate a cost that is “mostly correct”. 
+
+
+2. In addition to computing the cost of a query plan, a query optimizer also needs (1) to define the space of possible plans that it will search and (2) it needs an algorithm to enumerate possible query plans within that space. What query plans does the paper consider? What algorithm does the paper propose to find the best plan in that space? What are the benefits and limitations of this approach?
+
+
+To find the optimal plan for joining n relations, a tree of possible solutions is constructed. The search is performed by finding the best way to join subsets of the relations. For each set of relations joined, the cardinality of the composite relation is estimated and saved. 
+
+The search tree is constructed by iteration on the number of relations joined so far. First, the best way is found to access each single relation for each interesting tuple ordering and for the unordered case. Next, the best way of joining any relation to these is found, subject to the heuristics for join order. This produces solutions for joining pairs of relations. Then the best way to join sets of three relations is found by consideration of all sets of two relations and joining in each third relation permitted by the join order heuristic. For each plan to join a set of relations, the order of the composite result is kept in the tree. This allows consideration of a merge scan join which would not require sorting the composite. After the complete solutions (all of the relations joined together) have been found, the optimizer chooses the cheapest solution which gives the required order, if any was specified. Note that if a solution exists with the correct order, no sort is performed for ORDER BY or GROUP BY, unless the ordered solution is more expensive than the cheapest unordered solution plus the cost of sorting into the required order. The number of solutions which must be stored is at most 2**n (the number of subsets of n tables) times the number of interesting result orders. 
+
+Benefits: By remembering “interesting ordering” equivalence classes for joins and ORDER or GROUP specifications, the optimizer does more bookkeeping than most path selectors, but this additional work in many cases results in avoiding the storage and sorting of intermediate query results.
+Limitation: This optimizer does not actually return a mathematically “optimal” solution. Rather, it provides a set of heuristics that estimate a cost that is “mostly correct”. 
+
+
+
+
+
