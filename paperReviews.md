@@ -53,3 +53,19 @@ Please read "Access Path Selection in a Relational Database Management System" (
 1. Join optimization, as presented in the paper, is highly dependent on the effectiveness of cost estimation. How does the paper propose to compute the cost of a single relation access path? What statistics are used to estimate the cost of query plans? What are the benefits and limitations of this approach?
 
 2. In addition to computing the cost of a query plan, a query optimizer also needs (1) to define the space of possible plans that it will search and (2) it needs an algorithm to enumerate possible query plans within that space. What query plans does the paper consider? What algorithm does the paper propose to find the best plan in that space? What are the benefits and limitations of this approach?
+
+
+### Assignment 5 (Due on Nov 7, before class)
+
+We will be covering parallel databases, MapReduce, and Spark over two classes next week. Please read  "Parallel Database Systems: The Future of High Performance Database Systems," Sections 1 and 2 only ([csenetid](https://courses.cs.washington.edu/courses/csep544/17au/csenetid/dewitt-cacm92.pdf), [uwnetid](https://courses.cs.washington.edu/courses/csep544/17au/csenetid/dewitt-cacm92.pdf)). 
+Then read "Resilient distributed datasets: a fault-tolerant abstraction for in-memory cluster computing," Sections 2, 3, and 4 only. 
+([csenetid](https://courses.cs.washington.edu/courses/csep544/17au/csenetid/nsdi_spark.pdf), [uwnetid](https://courses.cs.washington.edu/courses/csep544/17au/csenetid/nsdi_spark.pdf)). 
+These two are foundational papers in parallel data processing and Spark. 
+Answer the following questions (one paragraph per question suffices):
+
+1. What are parallel databases good for?
+2. How do parallel databases compare to a distributed key-value store that we discussed in class earlier?
+3. Is Spark just another MapReduce in terms of being a programming model for data analytics? How do they differ? How would you compare Spark/MapReduce with parallel databases?
+
+Optional: for those of you who might be interested feel free to skim through this [online article](http://homes.cs.washington.edu/~billhowe/mapreduce_a_major_step_backwards.html)
+ (make sure you read through the comments).
