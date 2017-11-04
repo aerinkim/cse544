@@ -122,19 +122,19 @@ Asterix is already installed in the CSE Windows lab machines and the VDI machine
 1. Retrieve all the names of all cities located in Peru, sorted alphabetically. Name your output attribute ``city``. [Result Size: 30 rows] 
 
 
-2.	For each country return its name, its population, and the number of religions, sorted alphabetically by country. Name your output attributes ``country``, ``population``, ``num_religions``. [Result Size:  238 rows]
+2.	For each country return its name, its population, and the number of religions, sorted by decreasing number of religions. Name your output attributes ``country``, ``population``, ``num_religions``. [Result Size:  238 rows]
 
 
 3.	For each religion return the number of countries where it occurs; order them in decreasing number of countries. Name your output attributes ``religion``, ``num_countries``. [Result size: 37]
 
 
-4.	For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group.  Hint: you need to multiply the ethnicity’s percentage with the country’s population.  Use the functions float(x) and/or int(x) to convert a string x to a float or to an int. Name your output attributes ``ethnic_group``, ``num_countries``, ``total_population``. [Result Size: 262]
+4.	For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group, sorted by decreasing total population.  Hint: you need to multiply the ethnicity’s percentage with the country’s population.  Use the functions float(x) and/or int(x) to convert a string x to a float or to an int. Name your output attributes ``ethnic_group``, ``num_countries``, ``total_population``. [Result Size: 262]
 
 
 5.	Compute the list of all mountains, their heights, and the countries where they are located.  Here you will join the "mountain" collection with the "country" collection, on the country code.  You should return a list consisting of the mountain name, its height, the country code, and country name, in descending order of the height. Name your output attributes ``mountain``, ``height``, ``country_code``, ``country_name``. [Result Size: 272 rows]
 
 
-6.	Compute a list of countries with all their mountains.  This is similar to the previous problem, but now you will group the moutains for each country; return both the mountain name and its height.   Your query should return a list where each element consists of the country code, country name, and a list of mountain names and heights; order the countries by the number of mountains they contain. Name your output attributes ``country_code``, ``country_name``, ``mountains``, then each mountain should have attributes ``mountain``, ``height``. [Result Size: 238]
+6.	Compute a list of countries with all their mountains.  This is similar to the previous problem, but now you will group the moutains for each country; return both the mountain name and its height.   Your query should return a list where each element consists of the country code, country name, and a list of mountain names and heights; order the countries by the number of mountains they contain descending. Name your output attributes ``country_code``, ``country_name``, ``mountains``, then each mountain should have attributes ``mountain``, ``height``. [Result Size: 238]
 
 
 7.	Find all countries bordering two or more seas.  Here you need to join the "sea" collection with the "country" collection.  For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. Name your output attributes ``country_code``, ``country_name``, ``seas``, then each sea should have attribute ``sea``. [Result Size: 74]
