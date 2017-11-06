@@ -119,34 +119,34 @@ Asterix is already installed in the CSE Windows lab machines and the VDI machine
 
 **For all questions asking to report runtimes or other free response-type questions, please leave your responses in comments**
 
-1. Retrieve all the names of all cities located in Peru, sorted alphabetically. Name your output attribute ``city``. [Result Size: 30 rows] 
+1. (5 points) Retrieve all the names of all cities located in Peru, sorted alphabetically. Name your output attribute ``city``. [Result Size: 30 rows] 
 
 
-2.	For each country return its name, its population, and the number of religions, sorted by decreasing number of religions. Name your output attributes ``country``, ``population``, ``num_religions``. [Result Size:  238 rows]
+2.	(10 points) For each country return its name, its population, and the number of religions, sorted by decreasing number of religions. Name your output attributes ``country``, ``population``, ``num_religions``. [Result Size:  238 rows]
 
 
-3.	For each religion return the number of countries where it occurs; order them in decreasing number of countries. Name your output attributes ``religion``, ``num_countries``. [Result size: 37]
+3.	(10 points) For each religion return the number of countries where it occurs; order them in decreasing number of countries. Name your output attributes ``religion``, ``num_countries``. [Result size: 37]
 
 
-4.	For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group, sorted by decreasing total population.  Hint: you need to multiply the ethnicity’s percentage with the country’s population.  Use the functions float(x) and/or int(x) to convert a string x to a float or to an int. Name your output attributes ``ethnic_group``, ``num_countries``, ``total_population``. [Result Size: 262]
+4.	(10 points) For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group, sorted by decreasing total population.  Hint: you need to multiply the ethnicity’s percentage with the country’s population.  Use the functions float(x) and/or int(x) to convert a string x to a float or to an int. Name your output attributes ``ethnic_group``, ``num_countries``, ``total_population``. [Result Size: 262]
 
 
-5.	Compute the list of all mountains, their heights, and the countries where they are located.  Here you will join the "mountain" collection with the "country" collection, on the country code.  You should return a list consisting of the mountain name, its height, the country code, and country name, in descending order of the height. Name your output attributes ``mountain``, ``height``, ``country_code``, ``country_name``. [Result Size: 272 rows]
+5.	(10 points) Compute the list of all mountains, their heights, and the countries where they are located.  Here you will join the "mountain" collection with the "country" collection, on the country code.  You should return a list consisting of the mountain name, its height, the country code, and country name, in descending order of the height. Name your output attributes ``mountain``, ``height``, ``country_code``, ``country_name``. [Result Size: 272 rows]
 
 
-6.	Compute a list of countries with all their mountains.  This is similar to the previous problem, but now you will group the moutains for each country; return both the mountain name and its height.   Your query should return a list where each element consists of the country code, country name, and a list of mountain names and heights; order the countries by the number of mountains they contain descending. Name your output attributes ``country_code``, ``country_name``, ``mountains``, then each mountain should have attributes ``mountain``, ``height``. [Result Size: 238]
+6.	(10 points) Compute a list of countries with all their mountains.  This is similar to the previous problem, but now you will group the moutains for each country; return both the mountain name and its height.   Your query should return a list where each element consists of the country code, country name, and a list of mountain names and heights; order the countries by the number of mountains they contain descending. Name your output attributes ``country_code``, ``country_name``, ``mountains``, then each mountain should have attributes ``mountain``, ``height``. [Result Size: 238]
 
 
-7.	Find all countries bordering two or more seas.  Here you need to join the "sea" collection with the "country" collection.  For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. Name your output attributes ``country_code``, ``country_name``, ``seas``, then each sea should have attribute ``sea``. [Result Size: 74]
+7.	(10 points) Find all countries bordering two or more seas.  Here you need to join the "sea" collection with the "country" collection.  For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. Name your output attributes ``country_code``, ``country_name``, ``seas``, then each sea should have attribute ``sea``. [Result Size: 74]
 
 
-8.	Return all landlocked countries.  A country is landlocked if it borders no sea. For each country in your list, return its code, its name, in decreasing order of the country's area. Note: this should be an easy query to derive from the previous one. Name your output attributes ``country_code``, ``country_name``, ``area``. [Result Size: 45]
+8.	(10 points) Return all landlocked countries.  A country is landlocked if it borders no sea. For each country in your list, return its code, its name, in decreasing order of the country's area. Note: this should be an easy query to derive from the previous one. Name your output attributes ``country_code``, ``country_name``, ``area``. [Result Size: 45]
 
 
-9.	For this query you should also measure and report the runtime; it may be approximate (expect it around 10'-30') . Find all distinct pairs of countries that share both a mountain and a sea.  Your query should return a list of pairs of country names.  Avoid including a country with itself, like in (France,France), and avoid listing both (France,Korea) and (Korea,France) (not a real answer). Name your output attributes ``first_country``, ``second_country``. [Result Size: 7]
+9.	(10 points) For this query you should also measure and report the runtime; it may be approximate (expect it around 10'-30') . Find all distinct pairs of countries that share both a mountain and a sea.  Your query should return a list of pairs of country names.  Avoid including a country with itself, like in (France,France), and avoid listing both (France,Korea) and (Korea,France) (not a real answer). Name your output attributes ``first_country``, ``second_country``. [Result Size: 7]
 
 
-10. Create a new dataverse called hw5index, then run the following commands:
+10. (13 points) Create a new dataverse called hw5index, then run the following commands:
     ```sql
     USE hw5index;
     CREATE TYPE countryType AS OPEN {
@@ -166,10 +166,10 @@ Asterix is already installed in the CSE Windows lab machines and the VDI machine
     Create two new types: `mountainType` and `seaType`, and two new datasets, `mountain` and `sea`.  Both should have two required fields: `-id` and `-country`.  Their key should be autogenerated, and of type `uuid` (see how we did it for the mondial dataset).  Create an index of type `KEYWORD` (instead of `BTREE`) on the `-country` field (for both `mountain` and `sea`).  Turn in the complete sequence of commands for creating all three types, datasets, and indices (for `country`, `mountain`, `sea`).
 
 
-11.	Re-run the query from 9. (“pairs of countries that share both a mountain and a sea”) on the new dataverse `hw5index`.  Report the new runtime.  [Result Size: 7]
+11.	(1 points) Re-run the query from 9. (“pairs of countries that share both a mountain and a sea”) on the new dataverse `hw5index`.  Report the new runtime.  [Result Size: 7]
 
 
-12.	Modify the query from 11. to return, for each pair of countries, the list of common mountains, and the list of common seas. Name your output attributes ``first_country``, ``second_country``, ``mountains``, ``seas``, then each mountain and sea should have an attribute ``mountain`` or ``sea`` respectively. [Result Size: 7]
+12.	(1 points) Modify the query from 11. to return, for each pair of countries, the list of common mountains, and the list of common seas. Name your output attributes ``first_country``, ``second_country``, ``mountains``, ``seas``, then each mountain and sea should have an attribute ``mountain`` or ``sea`` respectively. [Result Size: 7]
 
 ## Submission Instructions
 
