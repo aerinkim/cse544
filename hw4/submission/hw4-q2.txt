@@ -1,3 +1,35 @@
 T1(p) = person_living(p) Join[p=name] male(name)
 T2(p1,p2,name) = parent_child(p1,p2) Join[p1=name,p2=p] 
 T3(p) = T1(p) Difference T2(p1,p2,name)
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////
+/////////////////// Please ignore below lines ////////////////////
+
+select a.p
+from   person_living a, male b
+where  a.p = b.name and 
+       not exists (select * 
+                   from   parent_child c, female d 
+                   where  c.p1=d.name and c.p2=a.p)
+
+
+T1(x,p1,p2) = person_living(x) Join[x=p1] parent_child(p1,p2)
+T2(p3,p4) = rename[p3,p4] parent_child(p3,p4)
+T3(x,p1,p2,p3,p4) = T1(x,p1,p2) Join[p2=p3] T2(p3,p4)
+T4(p1,p2,y) = GroupBy[p1,p2,count(*)->y] T3(x,p1,p2,p3,p4)
+T5(p1,z) =  GroupBy[p1,max(y)->z] T4(p1,p2,y)
+
+
+person(name,description) -> string(name), string(description).
+female(name) -> string(name).
+male(name) -> string(name).
+parent_child(p1,p2) -> string(p1), string(p2).
+person_living(p) -> string(p).

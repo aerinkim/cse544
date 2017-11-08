@@ -4,17 +4,17 @@ select p1, max(y) as z from
  	select p1, p3, count(*) as y from
  	(
 	  	select p1 as p3, p2 as p4 from parent_child
-	) as dat0
-	  inner join
-	 (
-	  select * from
-	  (select p1, p2 from parent_child) as pc
-	   inner join
-	  (select x from person_living) as pl
-	   on pc.p1 = pl.x
-	 ) as dat1
-	 on dat0.p3 = dat1.p2
-	 group by p1, p3
+	)as dat0
+	inner join
+	(
+	 	select * from
+	  		(select p1, p2 from parent_child) as pc
+	    	inner join
+	  		(select x from person_living) as pl
+	    on pc.p1 = pl.x
+	)as dat1
+	on dat0.p3 = dat1.p2
+	group by p1, p3
 	) 
 group by p1;
 

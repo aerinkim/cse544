@@ -15,6 +15,10 @@ ancsdesc(x,y) <- parent_child(x,y).
 ancsdesc(x,y) <- parent_child(x,z),ancsdesc(z,y).
 p1(x,d) <- ancsdesc("Priscilla",x), person(x,d).
 
+N1[] = m  <- agg <<m = count()>> p1(x,d).
+
+//query '_(d) <- N1["Priscilla"] = d.' <- this doesn't work.
+
 /************* problem 2 (a) **************/
 /**** Find all woman with largest number of children ****/
 /* For each person, count the number of children */ 
@@ -28,7 +32,7 @@ M[] = m <- agg<<m = max(d)>> fc(_,d).
 // Woman with most children.
 //query '_(d) <- M[]=d.'
 most_children_w(d) <- M[]=d.
-woman_with_most_children(x, n) <- fc(x,n), most_children_w(n).
+woman_with_most_children(x, d) <- fc(x,d), most_children_w(d).
 
 
 fm(x,d) <- N[x] = d, male(x).
@@ -41,10 +45,12 @@ male_with_most_children(x, n) <- fm(x,n), most_children_m(n).
 dd2(x,n) <- woman_with_most_children(x, n).
 dd2(x,n) <- male_with_most_children(x, n).
 
-d2(x,n,d) <- dd2(x,n), people(x,d).
+//p2(x,n,d) <- dd2(x,n), people(x,d).
+
 
 /************* problem 3 **************/
 /**** Find the minimum lineage of every living person n ****/
 //First get the parents of all people
-parents(x, y) <- person(x), parent_child(x, y). 
-M[] = m <- agg<<m = min(d)>> parents(_,d).
+//parents(x, y) <- person(x), parent_child(x, y). 
+//M[] = m <- agg<<m = min(d)>> parents(_,d).
+
