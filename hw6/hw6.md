@@ -48,7 +48,7 @@ Follow these steps to set up your Amazon Web Services account. **Make sure you d
 
 
 2. To get $$$ to use Amazon AWS, you must apply for credits by going to their [education website](https://aws.amazon.com/education/awseducate/apply/). 
-**You must use your UW email address, <your_uwid>@uw.edu, when registering for the credits, as they use this to verify your identity.** At the last step, make sure to choose the promote code option, and enter you account number (the starter account option has limited permissions which may cause trouble).
+**You must use your UW email address, <your_uwid>@uw.edu, when registering for the credits, as they use this to verify your identity.** Leave the promo code blank, and enter your AWS account number on the next page. Make sure you don't check the starter account option on the final page as that has limited permissions which may cause problems.
 
 
 3. After applying, you will have to wait to be approved. You should get an email when your application has been approved, which gives you a credit code. Make sure you check the spam folder. Once you have it, go to [the AWS website](http://aws.amazon.com/awscredits/) and apply the credit. We have no control / idea how long this can take, but was told it can range from minutes to days. Hence, it is crucial that you apply ASAP!
@@ -57,7 +57,7 @@ Follow these steps to set up your Amazon Web Services account. **Make sure you d
 
 **IMPORTANT: if you exceed the credit you are given, Amazon will charge your credit card without warning. If you run AWS in any other way rather than how we instruct you to do so below, you must remember to manually terminate the AWS clusters when you are done. While the credit that you receive should be more than enough for this homework assignment, but you should still monitor your billing usage by going to [their billing website](https://console.aws.amazon.com/billing/home) and clicking on "Bills" (upper left).** 
 
-The credits that you have left over after the assignment are for you to keep, but if you exceeded the credits due to forgetting to turn on your clusters / mining bitcoins etc then you will be responsible for paying the extra bill.
+You should get $100 from AWS once your application is approved. The credits that you have left over after the assignment are for you to keep, but if you exceeded the credits due to forgetting to turn on your clusters / mining bitcoins etc then you will be responsible for paying the extra bill.
 
 Now you are ready to run applications using Amazon cloud. But before you do that let's write some code and run it locally.
 
@@ -86,8 +86,10 @@ $ java -cp <your spark directory>/jars/*:. HW6 <path to the flights data directo
 ```
 
 If you are using Eclipse, you can do the same thing by right clicking on the project name -> "Build Path" -> "Configure Build Path" -> Libraries -> "Add External JARs". To run you program with arguments, go to "Run" -> "Run Configurations".
+
+You might get some warning messages such as `WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable`. You can safely ignore those.
   
-The output will be stored in a file (called `part-XXXX`) in the output directory you specified (the directory structure may depend on your platform). You will get an error if the output directory does not already exists. Be sure you read through the code and understand what is going on.
+The output will be stored in a file (called `part-XXXX`) in the output directory you specified (the directory structure may depend on your platform). You will get an error if the output directory already exists, so delete it before running your program. Be sure you read through the code and understand what is going on.
 
 
 ### D. Run Code on EMR
