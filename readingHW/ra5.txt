@@ -1,0 +1,22 @@
+1.What are parallel databases good for?
+
+It is good for the relational data model. Relational queries are
+ideally suited to parallel execution; they consist of uniform operations applied to uniform streams
+of data. Each operator produces a new relation, so the operators can be composed into highly
+parallel dataflow graphs. By streaming the output of one operator into the input of another
+operator, the two operators can work in series giving pipelined parallelism. By partitioning the
+input data among multiple processors and memories, an operator can often be split into many
+independent operators each working on a part of the data.
+
+
+2.How do parallel databases compare to a distributed key-value store that we discussed in class earlier?
+
+
+
+
+3.Is Spark just another MapReduce in terms of being a programming model for data analytics? How do they differ? How would you compare Spark/MapReduce with parallel databases?
+
+
+
+
+
