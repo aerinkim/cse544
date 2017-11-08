@@ -9,14 +9,18 @@ input data among multiple processors and memories, an operator can often be spli
 independent operators each working on a part of the data.
 
 
+
 2.How do parallel databases compare to a distributed key-value store that we discussed in class earlier?
 
+In Schema support, parallel databases(PD) has rigid structure of rows and columns but distributed key-value (DKV) has a flexible structure, but need to write parsers and challenging to share results. In terms of indexing, PD has B-trees to speed up access. DKV has no built-in indexes - programmers must code indexes. PD uses declarative, high-level language. DKV is imperative.
 
 
 
 3.Is Spark just another MapReduce in terms of being a programming model for data analytics? How do they differ? How would you compare Spark/MapReduce with parallel databases?
 
+Spark is a new and growing open source technology that works very well on cluster of computer nodes. Speed is one of the hallmarks of Apache Spark. The developers working in this environment get an application programming interface that is based on the framework of RDD (Resilient Distributed Dataset). RDD is nothing but the abstraction provided by Spark that lets you segregate nodes into smaller divisions on the cluster in order to independently process the data. 
 
+Spark lets you write the application in a language of your choice like Java, Python, and so on. It supports streaming data, SQL queries, extensive use of data analytics in order to make sense of the data. Also, the process of Spark execution can be up to 100 times faster due to its inherent ability to exploit the memory rather than using the disk storage. MapReduce has a big drawback since it has to operate with the entire set of data in the Hadoop Distributed File System on completion of each task. This increases the time and the cost of processing the data. Spark also allows caching on the fly – When dealing with Big Data there is a lot of caching involved and this increases the workload using MapReduce but Spark does it in-memory.
 
-
+Spark/MapReduce can be extended to support different storage backends -it can be used to combine data from different sources. However, parallel databases require all data to be loaded
 
