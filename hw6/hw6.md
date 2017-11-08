@@ -4,7 +4,7 @@
 
 **Assigned date:** Tuesday, Nov 7, 2017
 
-**Due date:** Tuesday, Nov 21. You have 2 weeks for this homework.
+**Due date:** Tuesday, Nov 14. You have 1 week for this homework.
 
 **What to turn in:**
 
