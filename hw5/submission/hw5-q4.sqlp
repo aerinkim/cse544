@@ -1,0 +1,23 @@
+/*(10 points) For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group, sorted by decreasing total population. Hint: you need to multiply the ethnicity’s percentage with the country’s population. Use the functions float(x) and/or int(x) to convert a string x to a float or to an int. Name your output attributes ethnic_group, num_countries, total_population. [Result Size: 262]*/
+
+
+// Korea- no ethnic group
+
+
+
+USE hw5;
+select u.text as ethnic_group, count(*) as num_countries, sum(float(u.percent) * float(u.pop) /100.0) as total_population
+from (select y.population as pop, 
+		     z.`#text` as text, 
+		     z.`-percentage` as percent
+      from  world x, 
+            x.mondial.country y, 
+   		   (CASE WHEN y.ethnicgroups is missing THEN []
+                 WHEN is_array(y.ethnicgroups) THEN y.ethnicgroups
+                 ELSE [y.ethnicgroups] END) z ) u
+group by ethnic_group
+order by total_population desc
+;
+
+
+

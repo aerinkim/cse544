@@ -1,0 +1,105 @@
+/*(10 points) Find all countries bordering two or more seas. Here you need to join the "sea" collection with the "country" collection. For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. Name your output attributes country_code, country_name, seas, then each sea should have attribute sea. [Result Size: 74]*/
+
+
+
+
+
+USE hw5;
+select joined.c_code, joined.country_name, COUNT(*) as cnt from
+(select cc_list as country_code, y.name as country_name, s.name, y.`-car_code` as c_code
+from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+where cc_list = y.`-car_code`) joined
+group by country_name 
+having cnt >= 2
+order by cnt desc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+USE hw5;
+SELECT y.`-car_code` AS country_code, y.name as country_name, seas
+
+FROM world x, x.mondial.country y,         
+     (SELECT s.`-bordering`
+        FROM sea s, split(s.`-country`," ")  cc_list
+        WHERE cc_list = y.`-car_code`) seas
+where array_count( split(seas," ") ) >=2
+order by array_count( split(seas," ") ) desc;
+
+
+
+
+(CASE WHEN z.city is missing THEN []
+WHEN is_array(z.city) THEN z.city
+ELSE [z.city] END) u
+
+*/
+
+
+
+
+/*
+USE TinySocial;
+
+SELECT user.name AS uname,
+       (SELECT VALUE msg.message
+        FROM GleambookMessages msg
+        WHERE msg.authorId = user.id) AS messages
+FROM GleambookUsers user;
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+USE hw5;
+SELECT y.`-car_code` AS country_code, y.name as country_name,
+        (SELECT s.`-bordering`
+        FROM sea s 
+        WHERE split(s.`-country`," ") = y.`-car_code`) AS seas
+FROM world x, x.mondial.country y
+where array_count(seas.located) >=2
+order by array_count(seas.located) desc;
+*/
+
+
+
+
+/*
+USE hw5;
+SELECT y.`-car_code` AS country_code, y.name as country_name,
+        (SELECT *
+		FROM sea s 
+		WHERE split(s.`-country`," ") = y.`-car_code`) AS seas
+FROM world x, x.mondial.country y
+where coll_count(seas.located) >=2
+order by coll_count(seas.located) desc;
+*/

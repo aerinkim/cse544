@@ -1,0 +1,55 @@
+/*(10 points) Compute the list of all mountains, their heights, and the countries where they are located. Here you will join the "mountain" collection with the "country" collection, on the country code. You should return a list consisting of the mountain name, its height, the country code, and country name, in descending order of the height. Name your output attributes mountain, height, country_code, country_name. [Result Size: 272 rows]*/
+
+
+
+
+USE hw5;
+select m.name as mountain, m.height as height, cc_list as country_code, y.name as country_name
+from world x, x.mondial.country y, mountain m, split(m.`-country`, " ") cc_list  
+where cc_list = y.`-car_code`
+order by country_code;
+
+
+
+
+
+
+
+
+
+
+
+/* Before showing to TAs
+// The problem was there was NO m.located . DUH!
+
+USE hw5;
+select m.name as mountain, m.height as height, cc_list as country_code, y.name as country_name
+from world x, x.mondial.country y, mountain m,
+
+(CASE WHEN m.located is missing THEN []
+      ELSE split(m.located.`-country`, " ") END) cc_list 
+where cc_list = y.`-car_code`
+order by country_code;
+*/
+
+
+
+
+//how to join list of string (without keys) with keys
+
+
+/*
+USE TinySocial;
+
+SELECT user.name AS uname,
+       (SELECT VALUE msg.message
+        FROM GleambookMessages msg
+        WHERE msg.authorId = user.id) AS messages
+FROM GleambookUsers user;
+*/
+
+
+
+
+
+

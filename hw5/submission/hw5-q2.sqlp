@@ -1,0 +1,55 @@
+/*For each country return its name, its population, and the number of religions, sorted by decreasing number of religions. Name your output attributes country, population, num_religions. [Result Size: 238 rows]
+*/
+
+
+ 
+
+USE hw5;
+SELECT y.name as country, y.population as population, u as num_religions
+FROM world x, x.mondial.country y
+
+Let u = (CASE WHEN y.religions is missing THEN 0
+                     WHEN is_array(y.religions) THEN ARRAY_COUNT(y.religions)
+                     ELSE 1 END)
+order by u desc;
+ 
+
+
+
+/*
+USE hw5;
+SELECT y.name as country, y.population as population, u as num_religions
+FROM world x, x.mondial.country y
+LET u = case when is_array(y.religions) then ARRAY_COUNT(y.religions)
+else 1 end
+order by u DESC;
+*/
+
+
+
+/* zero gets ignored and if I use coll_count then ambiguous error.*/
+/*
+USE hw5;
+SELECT y.name as country, y.population as population, count(u) as num_religions
+FROM world x, x.mondial.country y, 
+(CASE WHEN y.religions is missing THEN []
+WHEN is_array(y.religions) THEN y.religions
+ELSE [y.religions] END) u
+group by y.name, y.population
+order by count(u) desc;
+*/
+
+
+
+/*
+USE hw5;
+SELECT y.name as country, y.population as population, sum(u) as num_religions
+FROM world x, x.mondial.country y, 
+(CASE WHEN y.religions is missing THEN 0
+WHEN is_array(y.religions) THEN ARRAY_COUNT(y.religions)
+ELSE 1 END) u
+group by y.name, y.population
+order by u desc;
+*/
+
+

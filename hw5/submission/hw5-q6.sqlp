@@ -1,0 +1,55 @@
+/*(10 points) Compute a list of countries with all their mountains. This is similar to the previous problem, but now you will group the moutains for each country; return both the mountain name and its height. Your query should return a list where each element consists of the country code, country name, and a list of mountain names and heights; order the countries by the number of mountains they contain descending. Name your output attributes country_code, country_name, mountains, then each mountain should have attributes mountain, height. [Result Size: 238]*/
+
+
+
+// Nested outer join
+
+USE hw5;
+SELECT y.`-car_code` AS country_code,  y.name as country_name,
+       (SELECT m.name, m.height
+        FROM mountain m
+        WHERE m.`-country` = y.`-car_code`) AS mountains
+FROM world x, x.mondial.country y;
+
+
+
+
+
+/* Before showing it to TAs
+
+USE hw5;
+SELECT y.`-car_code` AS country_code,  y.name as country_name,
+       (SELECT VALUE m.name, m.height
+        FROM mountain m
+        WHERE m.`-country` = y.`-car_code`) AS mountains
+FROM world x, x.mondial.country y;
+
+//The problem was "VALUE" keyword!!!! DUH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+USE hw5;
+select cc_list as country_code, y.name as country_name, m.name as mountain,
+from world x, x.mondial.country y, mountain m,
+(CASE WHEN m.located is missing THEN []
+      ELSE split(m.located.`-country`, " ") END) cc_list 
+where cc = y.`-car_code`
+order by country_code;
+*/
+
+

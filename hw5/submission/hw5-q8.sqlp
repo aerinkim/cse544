@@ -1,0 +1,52 @@
+/*(10 points) Return all landlocked countries. A country is landlocked if it borders no sea. For each country in your list, return its code, its name, in decreasing order of the country's area. Note: this should be an easy query to derive from the previous one. Name your output attributes country_code, country_name, area. [Result Size: 45]*/
+
+
+/*
+USE hw5;
+SELECT y.`-car_code` AS country_code, y.name as country_name, float(y.area) as area
+       
+FROM world x, x.mondial.country y,
+
+let sea_count = 	(CASE WHEN y.religions is missing THEN 0
+                     WHEN is_array(y.religions) THEN ARRAY_COUNT(y.religions)
+                     ELSE 1 END)
+
+
+
+(SELECT s.`-bordering`
+			        FROM sea s, split(s.`-country`," ")  cc_list
+			        WHERE cc_list = y.`-car_code`)
+
+where sea_count == 0 
+order by area desc;
+
+Let u = 
+*/
+
+USE hw5;
+select joined.country_name, COUNT(*) as cnt from
+(select cc_list as country_code, y.name as country_name, s.name
+from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+where cc_list = y.`-car_code`) joined
+group by country_name
+having cnt = 0;
+
+
+
+
+
+/*
+USE hw5;
+SELECT y.`-car_code` AS country_code, y.name as country_name, float(y.area) as area
+
+FROM world x, x.mondial.country y
+
+        (SELECT m.name, m.height
+        FROM mountain m
+        WHERE m.`-country` = y.`-car_code`) AS mountains,
+
+        (coll_count(mountains)) as mountain_count,
+        
+where mountain_count == 0 
+order by area desc;
+*/

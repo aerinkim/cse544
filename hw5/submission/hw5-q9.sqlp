@@ -1,0 +1,16 @@
+/*(10 points) For this query you should also measure and report the runtime; it may be approximate (expect it around 10'-30') . Find all distinct pairs of countries that share both a mountain and a sea. Your query should return a list of pairs of country names. Avoid including a country with itself, like in (France,France), and avoid listing both (France,Korea) and (Korea,France) (not a real answer). Name your output attributes first_country, second_country. [Result Size: 7]
+*/
+
+
+ first_country, second_country
+
+select country 1, country 2
+- some se link exists between country 1 and 2
+- some mtn link exists between country 1 & 2
+
+
+<trick>
+-canada, us
+- us, canada
+c1!=c2
+alphabetical order <

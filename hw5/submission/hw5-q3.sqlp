@@ -1,0 +1,12 @@
+/*(10 points) For each religion return the number of countries where it occurs; order them in decreasing number of countries. Name your output attributes religion, num_countries. [Result size: 37]*/
+
+
+USE hw5;
+ 
+SELECT u.`#text` religion, COUNT(*) as num_countries
+FROM world x, x.mondial.country y,
+(CASE WHEN y.religions is missing THEN []
+WHEN is_array(y.religions) THEN y.religions
+ELSE [y.religions] END) u
+group by religion
+order by count(*) desc;
