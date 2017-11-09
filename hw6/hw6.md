@@ -134,6 +134,10 @@ It will take a while for AWS to start the machines and run your Spark job. As a 
 
 Once you are done, make sure you terminate the entire cluster (it should do so if you selected the options above). You can check cluster status on the EMR homepage). You can now check the output by clicking on the bucket you have created on S3. Text written to standard output, if any (e.g., from `System.out.println`), are located in the `containers/application<ID>/container<ID>/stdout.gz`, if you have enabled logging when you launched the EMR cluster.
 
+It's fine if you see warning (or even occasional error) messages in the logs. If your EMR job finishes successfully you should see something similar to the below in the main EMR console screen:
+ 
+<img src="https://courses.cs.washington.edu/courses/cse344/17au/assets/hw6-success.png" width="500"/>
+
 S3 charges by [downloading/uploading data from/to the buckets](https://aws.amazon.com/s3/pricing/). So once you are done with the assignment you might want to delete all the buckets that you have created (in addition to shutting down any EMR clusters that you have created).   
 
 The amount you are allocated from Amazon should be more than enough to complete the assignment. And every year we have students forgetting to shut down their cluster / clean up their buckets and that can result in substantial charges that they need to pay out of pocket. **So be warned!!!**
