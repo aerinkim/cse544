@@ -170,7 +170,7 @@ We have created empty method bodies for each of the questions below (`Q1`, `Q2`,
     Hint: [check out this post](https://stackoverflow.com/questions/35389219/task-not-serializable-exception-in-spark-while-calling-javapairrdd-max) if you get a "Task Not Serializable exception in Spark" exception.
                        
 
-5. Compute the average delay from all departing flights for each airport. Flights with null delay values (due to cancellation or otherwise) should not be counted. Return the results in a RDD where the key is a `String` for the city name, and the value is a `Double` for the average delay in minutes. Save the EMR output as `q5.txt` and add it to your repo. (25 points) [Result Size: 383 rows (281 rows on the small dataset), 17 mins on EMR] 
+5. Compute the average delay from all departing flights for each city. Flights with null delay values (due to cancellation or otherwise) should not be counted. Return the results in a RDD where the key is a `String` for the city name, and the value is a `Double` for the average delay in minutes. Save the EMR output as `q5.txt` and add it to your repo. (25 points) [Result Size: 383 rows (281 rows on the small dataset), 17 mins on EMR] 
 
 
 ## Submission Instructions
