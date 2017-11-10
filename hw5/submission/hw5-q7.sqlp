@@ -1,42 +1,68 @@
+
+
 /*(10 points) Find all countries bordering two or more seas. Here you need to join the "sea" collection with the "country" collection. For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. Name your output attributes country_code, country_name, seas, then each sea should have attribute sea. [Result Size: 74]*/
+
+/*
+USE hw5;
+select u.seas 
+from (SELECT y.`-car_code` AS cc_code, y.name as c_name, s.name as seas
+	from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+	where cc_list = y.`-car_code`
+	) u;
+
+
+
+
+USE hw5;
+select u.c_name as country_name, u.cc_code as country_code, g.GRP as seas
+from (SELECT y.`-car_code` AS cc_code, y.name as c_name, s.name as seas
+	from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+	where cc_list = y.`-car_code`
+	) u
+let g = (select distinct u.cc_code,
+         (select w.seas from u w where u.cc_code = w.cc_code) as GRP
+        from u)
+where array_count(g.GRP) >=2
+order by array_count(g.GRP) desc
+;
+*/
 
 
 
 
 
 USE hw5;
-select joined.c_code, joined.country_name, COUNT(*) as cnt from
-(select cc_list as country_code, y.name as country_name, s.name, y.`-car_code` as c_code
-from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
-where cc_list = y.`-car_code`) joined
-group by country_name 
-having cnt >= 2
-order by cnt desc;
+select * 
+from world x, x.mondial.country y,
+	 (select value s.name
+	 from sea as s 
+	 where  y.`-car_code` in split(s.`-country`, " ") ) as w
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+group by y.name as country_name, y.`-car_code` AS country_code group as seas(w as sea)
+having array_count(seas)>=2
+order by array_count(seas) desc;
 
 
 
 
 
 /*
+USE hw5;
+
+SELECT u.country_code, u.country_name, 
+	(SELECT y. FROM u y where u.country_code = u )
+FROM
+	(SELECT y.`-car_code` AS country_code, y.name as country_name, s.names
+	from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+	where cc_list = y.`-car_code`) u
+
+
+
+
+where y.`-car_code` in split(s.`-country`, " ")
+
+
+
 
 USE hw5;
 SELECT y.`-car_code` AS country_code, y.name as country_name, seas
@@ -48,34 +74,27 @@ FROM world x, x.mondial.country y,
 where array_count( split(seas," ") ) >=2
 order by array_count( split(seas," ") ) desc;
 
-
-
-
-(CASE WHEN z.city is missing THEN []
-WHEN is_array(z.city) THEN z.city
-ELSE [z.city] END) u
-
 */
 
-
+/*
+USE hw5;
+select final.country_name , car_code, sea_name from
+(
+	select joined.country_name, joined.car_code, count(*) as cnt
+	from (select y.name as country_name, s.name sea_name, y.`-car_code` as car_code
+	      from world x, x.mondial.country y, sea s, split(s.`-country`, " ") cc_list  
+	      where cc_list = y.`-car_code`) joined
+	group by joined.country_name,  joined.car_code
+	having cnt >= 2
+	order by cnt desc
+)final;
+*/
 
 
 /*
-USE TinySocial;
 
-SELECT user.name AS uname,
-       (SELECT VALUE msg.message
-        FROM GleambookMessages msg
-        WHERE msg.authorId = user.id) AS messages
-FROM GleambookUsers user;
+
 */
-
-
-
-
-
-
-
 
 
 
@@ -103,3 +122,17 @@ FROM world x, x.mondial.country y
 where coll_count(seas.located) >=2
 order by coll_count(seas.located) desc;
 */
+
+
+
+
+/*
+USE TinySocial;
+
+SELECT user.name AS uname,
+       (SELECT VALUE msg.message
+        FROM GleambookMessages msg
+        WHERE msg.authorId = user.id) AS messages
+FROM GleambookUsers user;
+*/
+
