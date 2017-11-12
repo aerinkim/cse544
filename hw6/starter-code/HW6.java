@@ -30,10 +30,10 @@ public class HW6 {
     Logger.getLogger("org.apache.spark.storage.BlockManager").setLevel(Level.ERROR);
 
     // use this for running locally
-    SparkSession spark = SparkSession.builder().appName("HW6").config("spark.master", "local").getOrCreate();
+    //SparkSession spark = SparkSession.builder().appName("HW6").config("spark.master", "local").getOrCreate();
 
     // use this for running on ec2
-    // SparkSession spark = SparkSession.builder().appName("HW6").getOrCreate();
+    SparkSession spark = SparkSession.builder().appName("HW6").getOrCreate();
 
     Dataset<Row> r = warmup(spark, dataFile);
     r.javaRDD().repartition(1).saveAsTextFile(output);
