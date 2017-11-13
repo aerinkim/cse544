@@ -35,17 +35,27 @@ public class HW6 {
     // use this for running on ec2
     SparkSession spark = SparkSession.builder().appName("HW6").getOrCreate();
 
+
+
+
+    /*
     Dataset<Row> r = warmup(spark, dataFile);
     r.javaRDD().repartition(1).saveAsTextFile(output);
+    */
+
+
+
 
     // uncomment each of the below to run your solutions
 
     /* Problem 1 */
-    // Dataset<Row> r1 = Q1(spark, dataFile);
+    Dataset<Row> r1 = Q1(spark, dataFile);
 
-    // collect all outputs from different machines to a single partition, and write to the output
-    // make sure the output location does not already exists (otherwise it will throw an error)
-    // r1.javaRDD().repartition(1).saveAsTextFile(output);
+    // collect all outputs from different machines to a single partition, 
+    // and write to the output
+    // make sure the output location does not already exists 
+    // (otherwise it will throw an error)
+    r1.javaRDD().repartition(1).saveAsTextFile(output);
 
     /* Problem 2 */
     // JavaRDD<Row> r2 = Q2(spark, dataFile);
@@ -93,7 +103,8 @@ public class HW6 {
     // this prints out the results
     r.show();
 
-    // this uses the RDD API to project a column from the read data and print out the results
+    // this uses the RDD API to project a column from the read data 
+    // and print out the results
     r.javaRDD()
      .map(t -> t.get(DEST_CITY_NAME))
      .foreach(t -> System.out.println(t));
@@ -104,10 +115,13 @@ public class HW6 {
   public static Dataset<Row> Q1 (SparkSession spark, String dataFile) {
 
     Dataset<Row> df = spark.read().parquet(dataFile);
+    // your code here   
+    df.createOrReplaceTempView("flights ");
 
-    // your code here
-
-    return null;
+    Dataset<Row> sqlDF = spark.sql("select DISTINCT flights, DISTINCT F.destcityname
+                                   from FLIGHTS as F
+                                   where F.origincityname = 'Seattle WA'");
+    return sqlDF;
   }
 
   public static JavaRDD<Row> Q2 (SparkSession spark, String dataFile) {
