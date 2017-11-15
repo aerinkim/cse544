@@ -165,7 +165,7 @@ public class HW6 {
 
     // your code here
     d = d.map(t -> {return RowFactory.create(t.getString(ORIGIN_CITY_NAME), t.getString(DEST_CITY_NAME));}).distinct();
-    JavaPairRDD<String, Integer> tmp = d.mapToPair(t-> {return new Tuple2<String, Integer>(t.getString(1), 1);}).reduceByKey((a, b) -> a + b);
+    JavaPairRDD<String, Integer> tmp = d.mapToPair(t-> {return new Tuple2<String, Integer>(t.getString(0), 1);}).reduceByKey((a, b) -> a + b);
     Tuple2<String, Integer> result = tmp.max(new DummyComparator());
     return result;
   }
@@ -303,3 +303,23 @@ public class HW6 {
  |-- div5tailnum: integer (nullable = true)
    */
 }
+
+/*
+LOCAL
+
+
+javac -cp "/Users/aerin/spark-2.2.0-bin-hadoop2.7/jars/*" HW6.java
+
+
+java -cp /Users/aerin/spark-2.2.0-bin-hadoop2.7/jars/*:. HW6  /Users/aerin/Desktop/csep544-2017au-aerinkim/hw6/starter-code/flights_small /Users/aerin/Desktop/csep544-2017au-aerinkim/hw6/starter-code/output333/
+
+
+
+EMR
+
+jar cf HW6.jar *.class
+
+s3://us-east-1.elasticmapreduce.samples/flightdata/input
+
+s3://4087076348hw6/ooutputls
+*/
